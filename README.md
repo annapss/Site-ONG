@@ -4,18 +4,14 @@ Projeto do site Para a ONG Grandes Altitudes:
 
 
 
-##
-<h3> Participantes: </h3>
-
-<ul>
-<li>Anna Paula
-<li>Alana
-<li>Dora
-<li>Eric
-<li>Guilherme
-<li>Maria Laura
-<li>Mauro
-<li>Rafaela
-<li>Victor Pinheiro
-<li>Victor Kauã
-</ul>
+## Participantes:
+- Anna Paula <a href="https://github.com/annapss"><img  src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white&link=mailto:https://github.com/burgues0" width="50"></a>
+- Alana <a href="https://github.com/Ala-R-F"><img  src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white&link=mailto:https://github.com/burgues0" width="50"></a>
+- Dora <a href=""><img  src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white&link=mailto:https://github.com/burgues0" width="50"></a>
+- Eric <a href="https://github.com/Ericcastell"><img  src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white&link=mailto:https://github.com/burgues0" width="50"></a>
+- Guilherme <a href="https://github.com/VegaCenturion"><img  src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white&link=mailto:https://github.com/burgues0" width="50"></a>
+- Maria Laura <a href="https://github.com/burgues0"><img  src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white&link=mailto:https://github.com/burgues0" width="50"></a>
+- Mauro <a href="https://github.com/mauropahoor"><img  src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white&link=mailto:https://github.com/burgues0" width="50"></a>
+- Rafaela <a href="https://github.com/RafaelaBF"><img  src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white&link=mailto:https://github.com/burgues0" width="50"></a>
+- Victor Pinheiro <a href="https://github.com/burgues0"><img  src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white&link=mailto:https://github.com/burgues0" width="50"></a>
+- Victor Kauã <a href="https://github.com/victor-kaua"><img  src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white&link=mailto:https://github.com/burgues0" width="50"></a>
