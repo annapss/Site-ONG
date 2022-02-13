@@ -2,9 +2,9 @@
 Projeto destinado a criação do site para a ONG Grandes A(l)titudes:
 
 ## Grandes A(l)titudes
-<img  src="Imagens/logo.png" width="100">
+<img  src="Imagens_README/logo.png" width="200">
 
-## O Nosso Projeto
+## O Nosso Projeto 💻
 O projeto surgiu como uma iniciativa de melhorar a visibilidade da ONG e destinar seus materiais a mais pessoas, visto isso nos juntamos e criamos essa iniciativa para ajudar a ONG, além de desenvolver nossos conhecimentos profissionalizantes na área de TI.
 
 
