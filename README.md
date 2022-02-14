@@ -2,7 +2,10 @@
 Projeto destinado a criação do site para a ONG Grandes A(l)titudes:
 
 ## Grandes A(l)titudes
-<img  src="Imagens_README/logo.png" width="200">
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/grandes_altitudes/) [![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCaTf49HZzLhWikOMC9ofm4A)
+
+<img  src="Imagens_README/logo.png" alt="processing" width="180px">
+
 
 ## O Nosso Projeto 💻
 O projeto surgiu como uma iniciativa de melhorar a visibilidade da ONG e destinar seus materiais a mais pessoas, visto isso nos juntamos e criamos essa iniciativa para ajudar a ONG, além de desenvolver nossos conhecimentos profissionalizantes na área de TI.
