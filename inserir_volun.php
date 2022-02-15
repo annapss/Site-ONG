@@ -1,6 +1,7 @@
 
 <?php
 
+include 'conecta_banco.php';
 $sql_insere = <<<FIM
 
     //insert into voluntario.ong (Nome, Email, ...) values ( ...);
