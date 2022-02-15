@@ -3,12 +3,12 @@
     $telefone = $_POST["telefone"]; 
     $participacao = ''; 
     $diho = '';
-    $grau = $_POST["grau"]; #não está reconhecendo "grau"
+    $grau = $_POST["grau"]; //não está reconhecendo "grau"
     $materias = $_POST["materias"];
     $outros = $_POST["outros"];
 
     $i = 0;
-    if(isset($_POST["parti"])){ #não está reconhecendo "parti"
+    if(isset($_POST["parti"])){ //não está reconhecendo "parti"
         foreach($_POST["parti"] as $key => $value){
             if($i==0){ //se tiver mais de uma opcao selecionada, saber qual é a primeira
                 $participacao .= "$value";
