@@ -21,7 +21,7 @@
         echo "Nenhuma opcao selecionada"; //para saber quando nenhuma checkbox foi selecionada
     }
    
-    $x = 0
+    $x = 0;
     if(isset($_POST["diho"])){
         foreach($_POST["diho"] as $key => $value){
             if($x ==0){  //se tiver mais de uma opcao selecionada, saber qual é a primeira
