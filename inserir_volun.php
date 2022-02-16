@@ -1,4 +1,3 @@
-
 <?php
 
 include 'conecta_banco.php';
