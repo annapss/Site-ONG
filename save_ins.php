@@ -3,7 +3,7 @@
     $telefone = $_POST["telefone"]; 
     $participacao = ''; 
     $diho = '';
-    $grau = $_POST["grau"]; //não está reconhecendo "grau"
+    $grau = $_POST["grau"];
     $materias = $_POST["materias"];
     $outros = $_POST["outros"];
 
