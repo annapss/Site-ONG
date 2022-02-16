@@ -1,4 +1,3 @@
-
 <?php
 function banco_conecta() 
 {
@@ -31,8 +30,5 @@ function banco_conecta()
 
     return $link;
 }
-
-
-
 
 ?>

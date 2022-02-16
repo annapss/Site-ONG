@@ -32,7 +32,6 @@
     }else{
         $presencial = $_POST["presencial"];
         echo "Nenhuma opcao selecionada"; //para saber quando nenhuma checkbox foi selecionada
-        
     }
    
     file_put_contents("ins.csv", "$nome; $telefone; $participacao; $diho; $grau; $presencial; $materias; $outros\n", FILE_APPEND );
@@ -46,10 +45,4 @@
         echo '</pre>';
         die();
     };
-
- 
-    
-  
-  
-    
 ?>
