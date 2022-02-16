@@ -1,7 +1,5 @@
 
 <?php
-
-
 function banco_conecta() 
 {
    global $dados_banco
