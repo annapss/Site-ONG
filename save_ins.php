@@ -26,11 +26,10 @@
     }
    
     $a = 0;
-
     $x = 0;
     if(isset($_POST["diho"])){
         foreach($_POST["diho"] as $key => $value){
-            if($x ==0){  //se tiver mais de uma opcao selecionada, saber qual é a primeira
+            if($x == 0){  //se tiver mais de uma opcao selecionada, saber qual é a primeira
                 $diho .= "$value";
             }else{
                 $diho .= " e $value";
@@ -41,7 +40,7 @@
     }else{
         $presencial = $_POST["presencial"];
         echo "Nenhuma opcao selecionada"; //para saber quando nenhuma checkbox foi selecionada
-        
+        $a++;
     }
    
     if($a == 1){ //se a pessoa não preencher a checkbox "diaho" e preencher a textarea "presencial" 
