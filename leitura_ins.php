@@ -1,20 +1,13 @@
-
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    
+<!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 <style>
-    th{
-        background-color: #f4fa8c;
-        font-size: 25px;
-    }
-    td{
-        background-color: #e0d8d7;
-        font-size: 20px;
-    }
     h1{
         font-size: 40px;
     }
 </style>
 
-<table border="1" width="90%" >
+<table border="1"  style="width:70%;" class="table table-dark table-striped" >
     <?php
 
     $linha = 1;
@@ -24,23 +17,22 @@
     if ($arquivo != FALSE){
         echo "<h1>Inscrições enviadas</h1>";
         $dados = fgetcsv($arquivo, 1000, ";");
-            echo "<tr>";
-            echo "<th>Nome:</th>";
-            echo "<th>Telefone:</th>";
-            echo "<th>Participação:</th>";
-            echo "<th>Dia e horário:</th>";
-            echo "<th>Grau de Escolaridade:</th>";
-            echo "<th>Dia e horário opcional:</th>";
-            echo "<th>Matérias:</th>";
-            echo "<th>Outros:</th>";
-            echo "</tr>";
-        
-            while ($dados != FALSE){
-           
+        echo "<tr>";
+        echo "<th>Nome:</th>";
+        echo "<th>Telefone:</th>";
+        echo "<th>Participação:</th>";
+        echo "<th>Dia e horário:</th>";
+        echo "<th>Grau de Escolaridade:</th>";
+        echo "<th>Dia e horário opcional:</th>";
+        echo "<th>Matérias:</th>";
+        echo "<th>Outros:</th>";
+        echo "</tr>";
+    
+        while ($dados != FALSE){
             echo "<tr>";
             foreach($dados as $valor){
                 if ($linha > 1){
-                   echo "<td>$valor</td>"; 
+                    echo "<td>$valor</td>"; 
                 }
                 
             }
