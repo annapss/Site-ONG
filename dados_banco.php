@@ -1,14 +1,8 @@
-<?php
-
-$dados_banco = array(
-
-    'Host' => "",
-    'Usuario' => "",
-    'Senha' => "",
-    'Banco' => "",
-
-
-);
-
-
+<?php  /*parametros banco de dados*/ 
+    $dados_banco = array(
+        'Host' => "",
+        'Usuario' => "",
+        'Senha' => "",
+        'Banco' => "",
+    );
 ?>

@@ -1,7 +1,4 @@
-
 <?php
-
-
 function banco_conecta() 
 {
    global $dados_banco
@@ -33,8 +30,5 @@ function banco_conecta()
 
     return $link;
 }
-
-
-
 
 ?>
