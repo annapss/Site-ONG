@@ -1,4 +1,5 @@
 <?php
+    //salva os dados da inscricao
     $nome = $_POST["nome"];
     $telefone = $_POST["telefone"]; 
     $participacao = ''; 

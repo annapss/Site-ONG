@@ -1,4 +1,5 @@
 <?php
+//insere novo voluntário na tabela de voluntários da ong
 
 include 'conecta_banco.php';
 $sql_insere = <<<FIM

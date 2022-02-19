@@ -1,5 +1,5 @@
 <?php
-
+//Criacao das tabelas do banco de dados
 include "conecta_banco.php";
 
 $sql = <<<FIM
