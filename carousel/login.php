@@ -1,24 +1,27 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Grandes A(l)titudes</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.88.1">
-  <title>Login</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
+    
 
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-
-  <!-- Bootstrap core CSS -->
-  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.225rem;
+    <style>
+     .mb-1{
+      margin-top: 25%;
+      font-size: medium;
+     }
+   .bd-placeholder-img {
+      font-size: 1.000px;
       text-anchor: middle;
       -webkit-user-select: none;
       -moz-user-select: none;
@@ -27,22 +30,20 @@
 
     @media (min-width: 68px) {
       .bd-placeholder-img-lg {
-        font-size: 3.5rem;
+        font-size: 3px;
       }
     }
 
     html,
     body {
       height: 100%;
-      zoom: 1.3;
+      zoom: 1;
     }
-
-
 
     body {
       display: flex;
       align-items: center;
-      padding-top: 40px;
+      padding-top: 120px;
       padding-bottom: 40px;
       background-color: #f5f5f5;
     }
@@ -57,24 +58,20 @@
     }
 
     .form-signin {
-      width: 300px;
-      max-width: 450px;
-      padding: 15px;
+      width: 250px;
+      max-width: 350px;
+      padding: 10px;
       margin: auto;
+      margin-top: 2;
     }
 
     .form-signin .checkbox {
       font-weight: 400;
+      margin-top: 20px;
     }
 
     .form-signin .form-floating:focus-within {
       z-index: 2;
-    }
-
-    .form-signin input[type="username"] {
-      margin-bottom: 2px;
-      border-top-left-radius: 0;
-      border-top-right-radius: 0;
     }
 
     .form-signin input[type="email"] {
@@ -114,7 +111,7 @@
     }
 
     .b-example-divider {
-      height: 3rem;
+      height: 1rem;
       background-color: rgba(0, 0, 0, .1);
       border: solid rgba(0, 0, 0, .15);
       border-width: 1px 0;
@@ -122,12 +119,12 @@
     }
 
     .bi {
-      vertical-align: -.125em;
+      vertical-align: -.15em;
       fill: currentColor;
     }
 
     .rounded-4 {
-      border-radius: .5rem;
+      border-radius: .15rem;
     }
 
     .rounded-5 {
@@ -139,7 +136,7 @@
     }
 
     .modal-sheet .modal-dialog {
-      width: 380px;
+      width: 300px;
       transition: bottom .75s ease-in-out;
     }
 
@@ -158,40 +155,78 @@
     .modal-tour .modal-dialog {
       width: 380px;
     }
-  </style>
-  <!-- Custom styles for this template -->
-  <link href="login.css" rel="stylesheet">
-</head>
+    .mb-4{
+      align-items: center;
+    }
+    </style>
 
-<body class="text-center">
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.php">Grandes A(l)titudes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <!--class="nav-link active"-->
+            <a class="nav-link" aria-current="page" href="materias.php">Matérias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/channel/UCaTf49HZzLhWikOMC9ofm4A" target="_blank">Youtube</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/grandes_altitudes/" target="_blank">Instagram</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <a class="btn btn-outline-primary" href="login.php">Login</a>
+          <!--<button type="button" class="btn btn-outline-primary" href="login.php">Login</button>-->
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
 
-
-  <main class="form-signin">
+<main class="form-signin">
+  <div class="container bg-dark">
     <form method="post" action="validação.php">
-      <img class="mb-4" src="logo.png" alt="" width="132" height="97">
-      <h1 class="h3 mb-4 fw-normal">Por Favor, entre para continuar </h1>
-      <div class="form-floating">
+      <div class="col-md-12 text-center">
+        <img class="mb-4" src="logo.png" alt="" width="132" height="97">
+        <h1 class="h3 mb-4 fw-normal" style="font-size: larger;">Por Favor, entre para continuar </h1>
+      </div>
+        <div class="form-floating">
         <input type="email" class="form-control" id="email" placeholder="name@example.com">
         <label for="email">Email:</label>
       </div>
       <div class="form-floating">
         <input type="password" class="form-control" id="senha" placeholder="Password">
         <label for="floatingPassword">Senha: </label>
-        <small class="text-muted">Ao clicar em Cadastre-se, você concorda com os termos de uso.</small>
-        <hr class="my-4">
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="Lembre-me" id="flexCheckIndeterminate">
-          <label class="form-check-label" for="flexCheckIndeterminate">
-            Lembre-me
-          </label>
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label">Lembre-me</label>
         </div>
-      
-        <input class="btn btn-primary" type="submit" value="Submit">
-      <p>Segue lá nas redes sociais. <br>Mais trabalhos em breve em: <a
-          href="https://github.com/VegaCenturion">VegaCenturion</a></p>
+          <div class="container my-3 bg-dark">
+            <div class="col-md-12 text-center">
+              <br><input class="btn btn-primary" type="submit" value="Submit">
+              <br><br><p style="text-align: center;">2018</p>
+            </div>
+          </div>
+      </div>
     </form>
-  </main>
+  </div>
+</main>
 
-</body>
 
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
 </html>
