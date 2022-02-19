@@ -1,6 +1,6 @@
 <?php
-    $nome = "jioasd";
-    $email = "ssaud@gmail.com";
+    $nome = $_REQUEST["nome"];
+    $email = $_REQUEST['email'];
     $senha = sha1($_REQUEST["senha"]);
     $telefone = $_REQUEST["telefone"];
 
