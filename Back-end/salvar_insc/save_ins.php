@@ -1,4 +1,6 @@
 <?php
+//arquivo que salva insricao
+
     $nome = $_POST["nome"];
     $telefone = $_POST["telefone"]; 
     $participacao = ''; 
