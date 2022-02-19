@@ -1,6 +1,6 @@
 <?php
 
-include "conecta_banco.php";
+include "conecta_banco.php"; //arquivo com funcoes para conexao com o banco
 
 $sql = <<<FIM
 CREATE DATABASE if NOT EXISTS grandes_altitudes;
