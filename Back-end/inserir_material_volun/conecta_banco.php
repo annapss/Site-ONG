@@ -1,5 +1,5 @@
 <?php
-
+// arquivo de conexao com o banco
 $host = "localhost";
 $usuario = "root";
 $senha = "";
