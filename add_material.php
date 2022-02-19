@@ -1,5 +1,6 @@
 <?php
 
+//Voluntário adiciona material - sem css
 include "conecta_banco.php";
 
 select_database($link, $banco);

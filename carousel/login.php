@@ -39,7 +39,6 @@
 
 
 
-/
     body {
       display: flex;
       align-items: center;
@@ -165,6 +164,7 @@
 </head>
 
 <body class="text-center">
+
 
   <main class="form-signin">
     <form method="post" action="validação.php">

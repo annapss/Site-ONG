@@ -58,7 +58,8 @@
           </li>
         </ul>
         <form class="d-flex">
-          <button type="button" class="btn btn-outline-primary">Login</button>
+          <a class="btn btn-outline-primary" href="login.php">Login</a>
+          <!--<button type="button" class="btn btn-outline-primary" href="login.php">Login</button>-->
         </form>
       </div>
     </div>
