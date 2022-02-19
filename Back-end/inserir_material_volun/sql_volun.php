@@ -1,5 +1,6 @@
 
 <?php
+// arquivo com o sql necessario para consulta ou inserção na tabela voluntario do banco
 
 $material =<<<FIM
 
