@@ -1,6 +1,5 @@
-//arquivo que guarda info salvo na inscricao do voluntario
-Nome; Telefone; Participacao; Dia_hora; Grau; Dia_hora_opcao; Materias; Outros
 
+Nome; Telefone; Participacao; Dia_hora; Grau; Dia_hora_opcao; Materias; Outros
 Pedro Carvalho; 21654971; Aulas Presenciais e Enviar Resumos; Quinta Feira-16:00 até 16:50 e Sexta Feira-11:10 até 12:00; Pós Graduacao; ;física e química; 
 Maria Laura Soares; 993055090; Aulas Online e Produzir Reels-TikTok; ; Ensino Fundamental Completo; ; Inglês; 
 Júlia Amaral; 992421362; Aulas Online e Aulas Presenciais e Enviar Resumos; ; Ensino Superior Incompleto; Sábados - de 11h até 12:30; Matemática e História; Quem pode ser coordenador?
