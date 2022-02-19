@@ -1,3 +1,4 @@
+//arquivo que guarda info salvo na inscricao do voluntario
 Nome; Telefone; Participacao; Dia_hora; Grau; Dia_hora_opcao; Materias; Outros
 
 Pedro Carvalho; 21654971; Aulas Presenciais e Enviar Resumos; Quinta Feira-16:00 até 16:50 e Sexta Feira-11:10 até 12:00; Pós Graduacao; ;física e química; 
