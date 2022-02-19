@@ -38,7 +38,7 @@
   <body>
     
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"><!-- bg-dark -->
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php">Grandes A(l)titudes</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +58,8 @@
           </li>
         </ul>
         <form class="d-flex">
-          <button type="button" class="btn btn-outline-primary">Login</button>
+          <a class="btn btn-outline-primary" href="login.php">Login</a>
+          <!--<button type="button" class="btn btn-outline-primary" href="login.php">Login</button>-->
         </form>
       </div>
     </div>
