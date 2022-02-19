@@ -53,7 +53,7 @@
             <form method="post" action="add_material.php">
                 <!--<input type="hidden" name="id_contato" value="<?=$id_contato?>">-->
                 <p>
-                <label for="materia">&nbsp&nbsp&nbspMatéria:</label>
+                <label for="materia">Matéria:</label>
                 <input type="text" id="materia" size="40" name="materia">
                 </p>
 
@@ -63,7 +63,7 @@
                 </p>
 
                 <p style="text-align: left;">    
-                    <label for="formato">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFormato:</label>
+                    <label for="formato">Formato:</label>
                     <select name="formato"  id="formato">
                         <option>Selecione uma opção</option>
                         <option value="Vide-aula">Vídeo Aula</option>
@@ -73,7 +73,7 @@
                 </p>
 
                 <p>    
-                    <label for="autor">&nbsp&nbspFeita por:</label>
+                    <label for="autor">Feita(o) por:</label>
                     <input type="text" id="autor" size="40" name="autor">
                 </p>
                 
@@ -81,16 +81,37 @@
                     <input type="submit" value="Adicionar">
 
 
-                <form method="post" action="consult_material.php">
+        <!-- EFETUAR A CONSULTA DE MATÉRIAS COM CONTEÚDOS DISPONÍVEIS-->
+            <form method="POST" action="consult_materias.php" >
                 </p>
                 <h2>Voluntário,seja bem-vindo.</h2>
                 <h3>Consulte as Matérias ainda disponível</h3>
-                    <form name="consultabd" action="consult_materias.php" method="POST">
-                        <label>Matérias ainda Disponíveis:</label>
-                        <input type="submit" name="consult_materias" value="Consultar">
-                    </form>
-                </form>
-            </form>    
+                <p>
+                <label for="materia">Matéria:</label>
+                <input type="text" id="materia_consult" size="40" name="materia_consult">
+                </p>
+    
+                <p>
+                <label for="conteudo_consult">Conteúdo:</label>
+                <input type="text" size="40" id="conteudo_consult" name="conteudo_consult">
+                </p>
+    
+                <p style="text-align: left;">    
+                    <label for="formato_consult">Formato:</label>
+                    <select name="formato_consult"  id="formato_consult">
+                        <option>Selecione uma opção</option>
+                        <option value="Vide-aula">Vídeo Aula</option>
+                        <option value="resumo">Resumo</option>
+                        <option value="reels-tiktok">Reels ou TikTok</option>
+                    </select>
+                </p>
+                <p>    
+                    <label for="autor_consult">Feita(o) por:</label>
+                    <input type="text" id="autor_consult" size="40" name="autor_consult">
+                </p>
+                    <input type="submit" name="consult_materias" value="Consultar">
+            </form>
+            </form>
         </div>
         <div name="complete" style="background-color: #383d47;margin-left: 620px;margin-right: 620px;">
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
