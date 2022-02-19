@@ -1,0 +1,45 @@
+<html>
+<meta charset="UTF-8"/>
+
+<style> 
+    label{
+        font-size: 30px;
+    }
+
+</style>
+
+
+<h1>Adicionar uma tarefa</h1>
+<form method="post" action="add_material.php">
+	<!--<input type="hidden" name="id_contato" value="<?=$id_contato?>">-->
+    <p>
+    <label for="materia">Matéria:</label>
+    <input type="text" id="materia" size="40" name="materia">
+    </p>
+
+    <p>
+    <label for="conteudo">Conteúdo:</label>
+    <input type="text" size="40" id="conteudo" name="conteudo">
+    </p>
+
+    <p>    
+    <label for="formato">Formato:</label>
+    <select name="formato"  id="formato">
+        <option>Selcione uma opção</option>
+        <option value="Vide-aula">Vídeo Aula</option>
+        <option value="resumo">Resumo</option>
+        <option value="reels-tiktok">Reels ou TikTok</option>
+    </select>
+    </p>
+
+    <p>    
+    <label for="autor">Feita por:</label>
+    <input type="text" id="autor" size="40" name="autor">
+    </p>
+    
+    <p>
+        <button type="submit">Adicionar</button>
+    </p>
+
+</form>
+</html>
