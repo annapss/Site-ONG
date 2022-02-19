@@ -47,7 +47,7 @@
     </head>
     <body style="background-color:blanchedalmond;">
         <div class="title">    
-            <h1>Adicionar Tarefa</h1>
+            <h1>Adicione um Material ou Consulte um Conteúdo disponível</h1>
         </div>  
         <div class="body">  
             <form method="post" action="add_material.php">
@@ -79,7 +79,17 @@
                 
                 <p>
                     <input type="submit" value="Adicionar">
+
+
+                <form method="post" action="consult_material.php">
                 </p>
+                <h2>Voluntário,seja bem-vindo.</h2>
+                <h3>Consulte as Matérias ainda disponível</h3>
+                    <form name="consultabd" action="consult_materias.php" method="POST">
+                        <label>Matérias ainda Disponíveis:</label>
+                        <input type="submit" name="consult_materias" value="Consultar">
+                    </form>
+                </form>
             </form>    
         </div>
         <div name="complete" style="background-color: #383d47;margin-left: 620px;margin-right: 620px;">
