@@ -1,5 +1,5 @@
 <?php
-
+// adiciciona no banco tarefas enviadas pelo voluntarios
 include "conecta_banco.php";
 
 select_database($link, $banco);
