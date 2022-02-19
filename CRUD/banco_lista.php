@@ -35,7 +35,7 @@
                         <td>$email</td>
                         <td>$senha</td>
                         <td><a href='banco_delete.php?email={$email}'>Delete</a>
-                        <br><a href='edit_form.html?email={$email}&nome={$nome}&telefone={$telefone}&senha={$senha}'>Edit</a>
+                        <br><a href='edit_form.php?email={$email}&nome={$nome}&telefone={$telefone}'>Edit</a>
                         </td>
                     </tr>";
 				/* pega a proxima row */

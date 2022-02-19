@@ -9,8 +9,8 @@
             }
             .title{
                 text-align: center;
-                margin-left: 90%;
-                margin-right: 80%;
+                margin-left: 620px;
+                margin-right: 620px;
                 background-color: #5b6175;
                 padding: 20px;
                 color: #efefef;

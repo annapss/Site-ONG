@@ -1,6 +1,10 @@
 <html>
     
-    <?php include 'header.php';?>
+    <?php include 'C:\xampp\htdocs\Universo553-ONG\header.php';
+        $nome = $_REQUEST['nome'];
+        $telefone = $_REQUEST['telefone'];
+        $email = $_REQUEST['email'];
+    ?>
 
     <body style="background-color:blanchedalmond;">
         <div class="title">    
@@ -9,28 +13,23 @@
         <div class="body">  
             <form method="post" action="banco_atualiza.php">
                 <p>
-                <label for="materia">&nbsp&nbsp&nbspMatéria:</label>
-                <input type="text" id="materia" size="40" name="materia">
+                <label for="nome">Nome:</label>
+                <input type="text" size="40" name="nome" value="<?=$nome?>">
                 </p>
 
                 <p>
-                <label for="conteudo">Conteúdo:</label>
-                <input type="text" size="40" id="conteudo" name="conteudo">
+                <label for="email">Email:</label>
+                <input type="text" size="40" name="email" value="<?=$email?>">
                 </p>
 
                 <p style="text-align: left;">    
-                    <label for="formato">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFormato:</label>
-                    <select name="formato"  id="formato">
-                        <option>Selecione uma opção</option>
-                        <option value="Vide-aula">Vídeo Aula</option>
-                        <option value="resumo">Resumo</option>
-                        <option value="reels-tiktok">Reels ou TikTok</option>
-                    </select>
+                    <label for="senha">Senha: (Deixar vazio nao ira alterar a senha)</label>
+                    <input type="text" size="40" name="senha">
                 </p>
 
                 <p>    
-                    <label for="autor">&nbsp&nbspFeita por:</label>
-                    <input type="text" id="autor" size="40" name="autor">
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" size="40" name="telefone" value="<?=$telefone?>">
                 </p>
                 
                 <p>
@@ -38,6 +37,6 @@
                 </p>
             </form>    
         </div>
-        <?php include 'footer.php';?>
+        <?php include 'C:\xampp\htdocs\Universo553-ONG\footer.php';?>
     </body>    
 </html>
