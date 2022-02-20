@@ -16,6 +16,7 @@
     include "sql_volun.php";
     
     while ($registro = mysqli_fetch_array($resultado))
+    {
         $materia = $registro['materia'];
         $conteudo = $registro['conteudo'];
         $formato = $registro['formato'];
@@ -26,6 +27,7 @@
         echo "<td>formato</td>";
         echo "<td>Autor</td>";    
         echo "<tr>";
+    }
     mysqli_close($strcon);
     echo "</table>";    
 ?>
