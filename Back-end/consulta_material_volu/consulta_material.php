@@ -3,10 +3,10 @@
     include "conecta_banco_consult.php";
     echo "<table border=1>";
     echo "<tr>";
-    echo "<td>Matéria</td>";
-    echo "<td>Conteúdo</td>";
-    echo "<td>Formato</td>";
-    echo "<td>Autor</td>";    
+    echo "<th>Matéria</th>";
+    echo "<th>Conteúdo</th>";
+    echo "<th>Formato</th>";
+    echo "<th>Autor</th>";    
     echo "<tr>";   
     //Conectando ao Banco de Dados
     $strcon = mysqli_connect('localhost','root','','grandes_altitudes') or die("Erro ao tentar consultar")
@@ -24,7 +24,7 @@
         echo "<td>materia</td>";
         echo "<td>conteudo</td>";
         echo "<td>formato</td>";
-        echo "<td>autor</td>";    
+        echo "<td>Autor</td>";    
         echo "<tr>";
     mysqli_close($strcon);
     echo "</table>";    
