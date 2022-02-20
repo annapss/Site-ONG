@@ -50,21 +50,21 @@
             <h1>Consultar Tarefa</h1>
         </div>  
         <div class="body">  
-            <form method="post" action="add_material.php">
+            <form method="post" action="consulta_material.php">
                 <!--<input type="hidden" name="id_contato" value="<?=$id_contato?>">-->
                 <p>
-                <label for="materia">Matéria:</label>
-                <input type="text" id="materia" size="40" name="materia">
+                    <label for="materia">Matéria:</label>
+                    <input type="text" id="materia_consult" size="40" name="materia_consult">
                 </p>
 
                 <p>
-                <label for="conteudo">Conteúdo:</label>
-                <input type="text" size="40" id="conteudo" name="conteudo">
+                    <label for="conteudo_consult">Conteúdo:</label>
+                    <input type="text" size="40" id="conteudo_consult" name="conteudo_consult">
                 </p>
 
                 <p style="text-align: left;">    
-                    <label for="formato">Formato:</label>
-                    <select name="formato"  id="formato">
+                    <label for="formato_consult">Formato:</label>
+                    <select name="formato_consult"  id="formato_consult">
                         <option>Selecione uma opção</option>
                         <option value="Vide-aula">Vídeo Aula</option>
                         <option value="resumo">Resumo</option>
@@ -73,12 +73,12 @@
                 </p>
 
                 <p>    
-                    <label for="autor">Feita(o) por:</label>
-                    <input type="text" id="autor" size="40" name="autor">
+                    <label for="autor_consult">Feita(o) por:</label>
+                    <input type="text" id="autor_consult" size="40" name="autor_consult">
                 </p>
                 
                 <p>
-                    <input type="submit" value="Consultar">
+                    <input type="submit" name="consult_materias" value="Consultar">
                 </p>
             </form>    
         </div>
