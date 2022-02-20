@@ -13,6 +13,8 @@
     $sql = "SELECT Materia, Conteudo, Formato, Feita_por FROM grandes_altitudes.material_feito "
     $resultado =mysqli_query($strcon,$sql) or die("Erro ao tentar consultar")
     
+    include "sql_volun.php";
+    
     while ($registro = mysqli_fetch_array($resultado))
         $materia = $registro['materia'];
         $conteudo = $registro['conteudo'];
