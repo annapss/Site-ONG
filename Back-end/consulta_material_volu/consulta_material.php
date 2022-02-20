@@ -9,7 +9,7 @@
     echo "<td>autor</td>";    
     echo "<tr>";   
     //Conectando ao Banco de Dados
-    $strcon = mysqli_connect('')
+    $strcon = mysqli_connect('localhost','root','','grandes_altitudes') or die("Erro ao tentar consultar")
     $sql = "SELECT Materia, Conteudo, Formato, Feita_por FROM grandes_altitudes.material_feito "
     $resultado =mysqli_query($strcon,$sql) or die("Erro ao tentar consultar")
     
