@@ -17,15 +17,15 @@
     
     while ($registro = mysqli_fetch_array($resultado))
     {
-        $materia = $registro['materia'];
-        $conteudo = $registro['conteudo'];
-        $formato = $registro['formato'];
-        $autor = $registro['autor'];
+        $materia = $registro['Materia'];
+        $conteudo = $registro['Conteudo'];
+        $formato = $registro['Formato'];
+        $autor = $registro['Autor'];
         echo "<tr>";
-        echo "<td>materia</td>";
-        echo "<td>conteudo</td>";
-        echo "<td>formato</td>";
-        echo "<td>Autor</td>";    
+        echo "<td>.$materia.</td>";
+        echo "<td>.$conteudo.</td>";
+        echo "<td>.$formato.</td>";
+        echo "<td>.$autor.</td>";    
         echo "<tr>";
     }
     mysqli_close($strcon);
