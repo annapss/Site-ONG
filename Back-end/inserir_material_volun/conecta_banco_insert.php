@@ -1,5 +1,5 @@
 <?php
-    // arquivo para conexão com o banco de dados
+    // arquivo de conexao com o banco
     $host = "localhost";
     $usuario = "root";
     $senha = "";
@@ -19,17 +19,17 @@
             die();
 
         }
-    };
+};
 
-    function executar_sql($link, $sql){
-        $resposta = mysqli_multi_query($link, $sql);
+function executar_sql($link, $sql){
+    $resposta = mysqli_multi_query($link, $sql);
 
-        if(!$resposta)
-        {
-            echo mysqli_error($link);
-        }
-    };
-        
+    if(!$resposta)
+    {
+        echo mysqli_error($link);
+    }
+};
     
+ 
 
 ?>
