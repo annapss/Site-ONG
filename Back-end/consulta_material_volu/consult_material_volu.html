@@ -1,52 +1,5 @@
-<<<<<<< HEAD:insert_material.html
 <html>
-    
-    <?php include 'header.php';?>
-
-    <body style="background-color:blanchedalmond;">
-        <div class="title">    
-            <h1>Editar Contas</h1>
-        </div>  
-        <div class="body">  
-            <form method="post" action="add_material.php">
-                <!--<input type="hidden" name="id_contato" value="<?=$id_contato?>">-->
-                <p>
-                <label for="materia">Matéria:</label>
-                <input type="text" id="materia" size="40" name="materia">
-                </p>
-
-                <p>
-                <label for="conteudo">Conteúdo:</label>
-                <input type="text" size="40" id="conteudo" name="conteudo">
-                </p>
-
-                <p style="text-align: left;">    
-                    <label for="formato">Formato:</label>
-                    <select name="formato"  id="formato">
-                        <option>Selecione uma opção</option>
-                        <option value="Vide-aula">Vídeo Aula</option>
-                        <option value="resumo">Resumo</option>
-                        <option value="reels-tiktok">Reels ou TikTok</option>
-                    </select>
-                </p>
-
-                <p>    
-                    <label for="autor">Feita(o) por:</label>
-                    <input type="text" id="autor" size="40" name="autor">
-                </p>
-                
-                <p>
-                    <input type="submit" value="Adicionar">
-                </p>
-            </form>    
-        </div>
-        <php? include 'footer.php';?>
-    </body>    
-</html>
-=======
-
-<html>
-    <!--Voluntário adiciona material com CSS-->
+    <!--Voluntário consulta material com CSS-->
     <head>
         <meta charset="UTF-8"/>
         <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -94,7 +47,7 @@
     </head>
     <body style="background-color:blanchedalmond;">
         <div class="title">    
-            <h1>Adicionar Tarefa</h1>
+            <h1>Consultar Tarefa</h1>
         </div>  
         <div class="body">  
             <form method="post" action="add_material.php">
@@ -120,12 +73,12 @@
                 </p>
 
                 <p>    
-                    <label for="autor">&nbsp&nbspFeita por:</label>
+                    <label for="autor">Feita(o) por:</label>
                     <input type="text" id="autor" size="40" name="autor">
                 </p>
                 
                 <p>
-                    <input type="submit" value="Adicionar">
+                    <input type="submit" value="Consultar">
                 </p>
             </form>    
         </div>
@@ -134,4 +87,3 @@
         </div>
     </body>    
 </html>
->>>>>>> 76c0fa670cc0553f63dad59e9f2985db50f5d673:Back-end/inserir_material_volun/insert_material.html
