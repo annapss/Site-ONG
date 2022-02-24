@@ -33,7 +33,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <link href="Front-End/carousel/carousel.css" rel="stylesheet">
   </head>
   <body>
     
