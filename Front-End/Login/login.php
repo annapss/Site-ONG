@@ -177,7 +177,7 @@
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
             <!--class="nav-link active"-->
-            <a class="nav-link" aria-current="page" href="materias.php">Matérias</a>
+            <a class="nav-link" aria-current="page" href="Front-End/materias_front/materias.php">Matérias</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://www.youtube.com/channel/UCaTf49HZzLhWikOMC9ofm4A" target="_blank">Youtube</a>
