@@ -4,66 +4,49 @@
         <meta charset="UTF-8"/>
         <link href="../../Front-End/assets/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    
-    <!-- Bootstrap core CSS -->
         <style> 
             label{
                 font-size: 16px;
             }
-            .title{
-                text-align: center;
-                margin-left: 620px;
-                margin-right: 620px;
-                background-color: #5b6175;
-                padding: 20px;
-                color: #efefef;
-                font-family: "Open Sans", Arial, sans-serif;
-            }
             .body{
                 text-align: center;
-                margin-left: 620px;
-                margin-right: 620px;
+                margin: 0% 30% 0% 30%;
                 background-color: #424757;
                 padding: 20px;
                 color: #efefef;
                 font-family: "Open Sans", Arial, sans-serif;
-            }
-            header{
-                background-color: #73cee3;
-                height: 180px;
-                text-align: center;
             }
             .contornar{
                 color:#FFCCAC; 
                 text-shadow:#000 2px -2px, #000 -2px 2px, #000 2px 2px, #000 -2px -2px;
             }
             h1,h2,h3,h4,h5,h6{
-                color: #ffffff;
+                color: #efefef;
                 font-weight: bold;
             }
         </style>
-        <header>
-            <h1 style="font-family: 'Verdana'; font-size: 80px; color: #ffffff;font-weight: bold;" class="contornar"><img src="carousel/logo.png" height="160">Grandes A(l)titudes<img src="carousel\logo.png" height="160"></h1>
-        </header>
+        <?php include 'C:\xampp\htdocs\Site_ONG\Front-End\assets\xmenu.php'; ?>
     </head>
     <body style="background-color:blanchedalmond;">
-        <div class="title">    
-            <h1>Consultar Tarefa</h1>
-        </div>  
-        <div class="body">  
+        <div class="body contornar" style="background-color: #73cee3;">
+            <br><br><br>
+            <h1>Inserir Materia</h1>
+        </div>
+        <div class="body" style="height: 100%;">  
             <form method="post" action="consulta_material.php">
                 <!--<input type="hidden" name="id_contato" value="<?=$id_contato?>">-->
                 <p>
-                    <label for="materia">Matéria:</label>
-                    <input type="text" id="materia_consult" size="40" name="materia_consult">
+                    <label for="materia">Matéria:</label><br>
+                    <input type="text" id="materia_consult" size="30" name="materia_consult">
                 </p>
 
                 <p>
-                    <label for="conteudo_consult">Conteúdo:</label>
-                    <input type="text" size="40" id="conteudo_consult" name="conteudo_consult">
+                    <label for="conteudo_consult">Conteúdo:</label><br>
+                    <input type="text" size="30" id="conteudo_consult" name="conteudo_consult">
                 </p>
 
-                <p style="text-align: left;">    
-                    <label for="formato_consult">Formato:</label>
+                <p">    
+                    <label for="formato_consult">Formato:</label><br>
                     <select name="formato_consult"  id="formato_consult">
                         <option>Selecione uma opção</option>
                         <option value="Vide-aula">Vídeo Aula</option>
@@ -73,17 +56,14 @@
                 </p>
 
                 <p>    
-                    <label for="autor_consult">Feita(o) por:</label>
-                    <input type="text" id="autor_consult" size="40" name="autor_consult">
+                    <label for="autor_consult">Feita(o) por:</label><br>
+                    <input type="text" id="autor_consult" size="30" name="autor_consult">
                 </p>
                 
                 <p>
                     <input type="submit" name="consult_materias" value="Consultar">
                 </p>
             </form>    
-        </div>
-        <div name="complete" style="background-color: #383d47;margin-left: 620px;margin-right: 620px;">
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
     </body>    
 </html>
