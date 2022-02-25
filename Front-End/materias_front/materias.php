@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Carousel Template · Bootstrap v5.1</title>
+    <title>Matérias</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
@@ -40,7 +40,7 @@
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="Front-End/index.php">Grandes A(l)titudes</a>
+      <a class="navbar-brand" href="../index.php">Grandes A(l)titudes</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -58,7 +58,7 @@
           </li>
         </ul>
         <form class="d-flex">
-          <button type="button" class="btn btn-outline-primary">Login</button>
+          <button type="button" class="btn btn-outline-primary" href="../Login/login.php">Login</button>
         </form>
       </div>
     </div>
