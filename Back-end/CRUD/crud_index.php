@@ -30,7 +30,7 @@
             <h1>Crud</h1>
         </div>
         <div class="body" style="height: 100%;">  
-            <?php include 'banco_lista.php';?>
+            <?php include 'assets\banco_lista.php';?>
         </div>
     </body>
 </html>
