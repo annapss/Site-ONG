@@ -6,7 +6,7 @@ $sql = <<<FIM
 CREATE DATABASE if NOT EXISTS grandes_altitudes;
 CREATE TABLE grandes_altitudes.Login(
            Email  varchar(40),
-           Senha  varchar(10),
+           Senha  varchar(500),
 
            PRIMARY KEY(Email)
    );
