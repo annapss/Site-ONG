@@ -11,7 +11,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
     
     <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../Front-End/assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -28,36 +28,12 @@
     </style>
     
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+  <link href="../../Front-End/Index_and_css/carousel.css" rel="stylesheet">
   </head>
   <body>
+   
+  <?php include 'C:\xampp\htdocs\Site_ONG\Front-End\assets\xmenu.php';?>
 
-<header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Grandes A(l)titudes</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.youtube.com/channel/UCaTf49HZzLhWikOMC9ofm4A" target="_blank">Youtube</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.instagram.com/grandes_altitudes/" target="_blank">Instagram</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <button type="button" class="btn btn-outline-primary">Login</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-</header>
 <main>
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">

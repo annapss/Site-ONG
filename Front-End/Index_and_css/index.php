@@ -63,7 +63,7 @@
           <div class="carousel-caption">
             <h1>Quer ser voluntário?</h1>
             <p>Vem fazer parte desse time!</p>
-            <p><a class="btn btn-lg btn-primary" href="formularioInscr.php">Inscreva-se</a></p>
+            <p><a class="btn btn-lg btn-primary" href="../../Back-End/salvar_insc/FormsOficial_voluntarios.php">Inscreva-se</a></p>
           </div>
         </div>
       </div>
@@ -96,14 +96,14 @@
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
-        <img src="pessoaA.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
+        <img src="../../Imagens_and_Icons/pessoaA.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
         <h2>Depoimento 2</h2>
         <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
-        <img src="mulher.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">
+        <img src="../../Imagens_and_Icons/mulher.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">
         <h2>Depoimento 3</h2>
         <p>And lastly this, the third column of representative placeholder content.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
@@ -119,7 +119,7 @@
       <div class="col-md-7">
         <h2 class="featurette-heading"> Matérias</h2>
         <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-        <a class="btn btn-primary" href="materias_front/materias.php" role="button">Matérias</a>
+        <a class="btn btn-primary" href="../materias_front/materias.php" role="button">Matérias</a>
       </div>
       <div class="col-md-5">
         <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
