@@ -30,7 +30,7 @@
     <body style="background-color:blanchedalmond;">
         <div class="body contornar" style="background-color: #73cee3;">
             <br><br><br>
-            <h1>Inserir Materia</h1>
+            <h1>Consultar Materia</h1>
         </div>
         <div class="body" style="height: 100%;">  
             <form method="post" action="consulta_material.php">
