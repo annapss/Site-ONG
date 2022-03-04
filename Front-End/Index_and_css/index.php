@@ -37,7 +37,7 @@
   </head>
   <body>
     
-  <!-- HEADER --> <?php include 'C:\xampp\htdocs\Site_ONG\Front-End\assets\xmenu.php'; /* Lindinho capaz de substituir o header s2 */ ?> 
+  <!-- HEADER --> <?php include 'C:\xampp\htdocs\Site-ong/Front-End/assets/xmenu.php'; /* Lindinho capaz de substituir o header s2 */ ?> 
 
 <main>
 

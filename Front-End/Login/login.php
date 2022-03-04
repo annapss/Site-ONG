@@ -1,205 +1,229 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="pt-br"><head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.88.1">
-    <title>Grandes A(l)titudes</title>
+    <title>login </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+/* login FORM */
 
+#logreg-forms{
+    width:412px;
+    margin:10vh auto;
+    background-color:#f3f3f3;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+#logreg-forms form {
+    width: 100%;
+    max-width: 410px;
+    padding: 15px;
+    margin: auto;
+}
+#logreg-forms .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+#logreg-forms .form-control:focus { z-index: 2; }
+#logreg-forms .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#logreg-forms .form-signin input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#logreg-forms .social-login{
+    width:390px;
+    margin:0 auto;
+    margin-bottom: 14px;
+}
+#logreg-forms .social-btn{
+    font-weight: 100;
+    color:white;
+    width:190px;
+    font-size: 0.9rem;
+}
+
+#logreg-forms a{
+    display: block;
+    padding-top:10px;
+    color:lightseagreen;
+}
+
+#logreg-form .lines{
+    width:200px;
+    border:1px solid red;
+}
+
+
+#logreg-forms button[type="submit"]{ margin-top:10px; }
+
+#logreg-forms .facebook-btn{  background-color:#3C589C; }
+
+#logreg-forms .google-btn{ background-color: #DF4B3B; }
+
+#logreg-forms .form-reset, #logreg-forms .form-signup{ display: none; }
+
+#logreg-forms .form-signup .social-btn{ width:210px; }
+
+#logreg-forms .form-signup input { margin-bottom: 2px;}
+
+.form-signup .social-login{
+    width:210px !important;
+    margin: 0 auto;
+}
+
+/* Mobile */
+
+@media screen and (max-width:500px){
+    #logreg-forms{
+        width:300px;
+    }
     
-
-    <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-     .mb-1{
-      margin-top: 25%;
-      font-size: medium;
-     }
-   .bd-placeholder-img {
-      font-size: 1.000px;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
+    #logreg-forms  .social-login{
+        width:200px;
+        margin:0 auto;
+        margin-bottom: 10px;
     }
-
-    @media (min-width: 68px) {
-      .bd-placeholder-img-lg {
-        font-size: 3px;
-      }
+    #logreg-forms  .social-btn{
+        font-size: 1.3rem;
+        font-weight: 100;
+        color:white;
+        width:200px;
+        height: 56px;
+        
     }
-
-    html,
-    body {
-      height: 100%;
-      zoom: 1;
+    #logreg-forms .social-btn:nth-child(1){
+        margin-bottom: 5px;
     }
-
-    body {
-      display: flex;
-      align-items: center;
-      padding-top: 120px;
-      padding-bottom: 40px;
-      background-color: #f5f5f5;
+    #logreg-forms .social-btn span{
+        display: none;
     }
-
-    body,
-    html {
-      background-image: url(https://images2.alphacoders.com/584/584010.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center;
-      background-size: cover;
+    #logreg-forms  .facebook-btn:after{
+        content:'Facebook';
     }
-
-    .form-signin {
-      width: 250px;
-      max-width: 350px;
-      padding: 10px;
-      margin: auto;
-      margin-top: 2;
+  
+    #logreg-forms  .google-btn:after{
+        content:'Google+';
     }
-
-    .form-signin .checkbox {
-      font-weight: 400;
-      margin-top: 20px;
-    }
-
-    .form-signin .form-floating:focus-within {
-      z-index: 2;
-    }
-
-    .form-signin input[type="email"] {
-      margin-bottom: 3px;
-      border-bottom-right-radius: 0;
-      border-bottom-left-radius: 0;
-      margin-top: 3px;
-    }
-
-    .form-signin input[type="password"] {
-      margin-bottom: 3px;
-      border-top-left-radius: 0;
-      border-top-right-radius: 0;
-      margin-top: 4px;
-    }
-
-    .checkbox1 {
-      transform: scale(1.1);
-      padding: 20px;
-      margin-bottom: -20px;
-      margin-top: -20px;
-      ;
-    }
-
-
-    .bi {
-      vertical-align: -.125em;
-      fill: currentColor;
-    }
-
-    .footer1 {
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-      background-color: #c5c5c5;
-      font-size: 15px;
-    }
-
-    .b-example-divider {
-      height: 1rem;
-      background-color: rgba(0, 0, 0, .1);
-      border: solid rgba(0, 0, 0, .15);
-      border-width: 1px 0;
-      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-    }
-
-    .bi {
-      vertical-align: -.15em;
-      fill: currentColor;
-    }
-
-    .rounded-4 {
-      border-radius: .15rem;
-    }
-
-    .rounded-5 {
-      border-radius: .75rem;
-    }
-
-    .rounded-6 {
-      border-radius: 1rem;
-    }
-
-    .modal-sheet .modal-dialog {
-      width: 300px;
-      transition: bottom .75s ease-in-out;
-    }
-
-    .modal-sheet .modal-footer {
-      padding-bottom: 2rem;
-    }
-
-    .modal-alert .modal-dialog {
-      width: 380px;
-    }
-
-    .border-right {
-      border-right: 1px solid #eee;
-    }
-
-    .modal-tour .modal-dialog {
-      width: 380px;
-    }
-    .mb-4{
-      align-items: center;
-    }
+    
+}
     </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
 
-    
-    <!-- Custom styles for this template -->
-    <link href="Front-End/carousel/carousel.css" rel="stylesheet">
-  </head>
-  <body>
-    
-  <?php include 'C:\xampp\htdocs\Site_ONG\Front-End\assets\xmenu.php';?>
+<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <title>Login/Register Form</title>
 
-<main class="form-signin">
-  <div class="container bg-dark">
-    <form method="post" action="validação.php">
-      <div class="col-md-12 text-center">
-        <img class="mb-4" src="logo.png" alt="" width="132" height="97">
-        <h1 class="h3 mb-4 fw-normal" style="font-size: larger;">Por Favor, entre para continuar </h1>
-      </div>
-        <div class="form-floating">
-        <input type="email" class="form-control" id="email" placeholder="name@example.com">
-        <label for="email">Email:</label>
-      </div>
-      <div class="form-floating">
-        <input type="password" class="form-control" id="senha" placeholder="Password">
-        <label for="floatingPassword">Senha: </label>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-          <label class="form-check-label">Lembre-me</label>
-        </div>
-          <div class="container my-3 bg-dark">
-            <div class="col-md-12 text-center">
-              <br><input class="btn btn-primary" type="submit" value="Submit">
-              <br><br><p style="text-align: center;">2018</p>
+    <div id="bg-color"></div>
+
+    <div id="logreg-forms">
+        <form class="form-signin">
+            <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Login </h1>
+            <div class="social-login">
+                <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i> Entre com o Facebook</span> </button>
+                <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i> Entre com o Google+</span> </button>
             </div>
-          </div>
-      </div>
-    </form>
-  </div>
-</main>
+            <p style="text-align:center"> OU  </p>
+            <input type="email" id="inputEmail" class="form-control" placeholder="E-mail ou Telefone" required="" autofocus="">
+            <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="">
+            
+            <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Entrar</button>
+            <a href="#" id="forgot_pswd">Esqueceu sua Senha?</a>
+            <hr>
+            
+            <!-- <p> Cadastro </p>  -->
+            
+            <button class="btn btn-primary btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i> Criar uma Conta</button>
+            </form>
+
+            <form action="/reset/password/" class="form-reset" style="display: none;">
+                <input type="email" id="resetEmail" class="form-control" placeholder="E-mail ou Telefone" required="" autofocus="">
+                <button class="btn btn-primary btn-block" type="submit">Alterar Senha</button>
+                <a href="#" id="cancel_reset"><i class="fas fa-angle-left"></i> Voltar</a>
+            </form>
+            
+            <form action="/signup/" class="form-signup">
+                <div class="social-login">
+                    <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i> Entre com o Facebook</span> </button>
+                </div>
+                <div class="social-login">
+                    <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i> Entre com o Google+</span> </button>
+                </div>
+                
+                <p style="text-align:center">OU</p>
+
+                <input type="text" id="user-name" class="form-control" placeholder="Nome Completo" required="" autofocus="">
+                <input type="email" id="user-email" class="form-control" placeholder="E-mail" required="" autofocus="">
+                <input type="password" id="user-pass" class="form-control" placeholder="Senha" required="" autofocus="">
+                <input type="password" id="user-repeatpass" class="form-control" placeholder="Repetir Senha" required="" autofocus="">
+
+                <button class="btn btn-primary btn-block" type="submit"><i class="fas fa-user-plus"></i> Cadastrar</button>
+                <a href="#" id="cancel_signup"><i class="fas fa-angle-left"></i> Voltar</a>
+            </form>
+            <br>
+            
+    </div>
+    <p style="text-align:center">
+        <a href="http://bit.ly/2RjWFMfunction toggleResetPswd(e){
+    e.preventDefault();
+    $('#logreg-forms .form-signin').toggle() // display:block or none
+    $('#logreg-forms .form-reset').toggle() // display:block or none
+}
+function toggleSignUp(e){
+    e.preventDefault();
+    $('#logreg-forms .form-signin').toggle(); // display:block or none
+    $('#logreg-forms .form-signup').toggle(); // display:block or none
+}
+$(()=>{
+    // Login Register Form
+    $('#logreg-forms #forgot_pswd').click(toggleResetPswd);
+    $('#logreg-forms #cancel_reset').click(toggleResetPswd);
+    $('#logreg-forms #btn-signup').click(toggleSignUp);
+    $('#logreg-forms #cancel_signup').click(toggleSignUp);
+})g" target="_blank" style="color:black"></a>
+    </p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
 
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+function toggleResetPswd(e){
+    e.preventDefault();
+    $('#logreg-forms .form-signin').toggle() // display:block or none
+    $('#logreg-forms .form-reset').toggle() // display:block or none
+}
 
-      
-  </body>
-</html>
+function toggleSignUp(e){
+    e.preventDefault();
+    $('#logreg-forms .form-signin').toggle(); // display:block or none
+    $('#logreg-forms .form-signup').toggle(); // display:block or none
+}
+
+$(()=>{
+    // Login Register Form
+    $('#logreg-forms #forgot_pswd').click(toggleResetPswd);
+    $('#logreg-forms #cancel_reset').click(toggleResetPswd);
+    $('#logreg-forms #btn-signup').click(toggleSignUp);
+    $('#logreg-forms #cancel_signup').click(toggleSignUp);
+})
+</script>
+
+
+</body></html>
+
