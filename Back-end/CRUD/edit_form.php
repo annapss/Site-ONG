@@ -6,35 +6,15 @@
             $telefone = $_REQUEST['telefone'];
             $email = $_REQUEST['email'];
         ?>
-        <style>
-            label{
-                font-size: 16px;
-            }
-            .body{
-                text-align: center;
-                margin: 0% 30% 0% 30%;
-                background-color: #424757;
-                padding: 20px;
-                color: #efefef;
-                font-family: "Open Sans", Arial, sans-serif;
-            }
-            .contornar{
-                color:#FFCCAC; 
-                text-shadow:#000 2px -2px, #000 -2px 2px, #000 2px 2px, #000 -2px -2px;
-            }
-            h1,h2,h3,h4,h5,h6{
-                color: #efefef;
-                font-weight: bold;
-            }
-        </style>
+        <link rel="stylesheet" href="assets\crud.css">
     </head>
-    <body style="background-color:blanchedalmond;">
+    <body>
         <div class="body contornar" style="background-color: #73cee3;">
             <br><br><br>
             <h1>Crud</h1>
         </div>
         <div class="body" style="height: 100%;">  
-            <form method="post" action="banco_atualiza.php">
+            <form method="post" action="assets/banco_atualiza.php">
                 <p>
                     <label for="nome">Nome:</label><br>
                     <input type="text" size="40" name="nome" value="<?=$nome?>">

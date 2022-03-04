@@ -1,0 +1,22 @@
+label{
+    font-size: 16px;
+}
+body{
+    background-color: blanchedalmond;
+}
+.body{
+    text-align: center;
+    margin: 0% 30% 0% 30%;
+    background-color: #424757;
+    padding: 20px;
+    color: #efefef;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+.contornar{
+    color:#FFCCAC; 
+    text-shadow:#000 2px -2px, #000 -2px 2px, #000 2px 2px, #000 -2px -2px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #efefef;
+    font-weight: bold;
+}

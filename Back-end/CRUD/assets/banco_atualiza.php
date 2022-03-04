@@ -51,7 +51,7 @@
         }
         else{
             //tendo sucesso, direciona para a pagina que contem os dados em display
-            header("location: crud_index.php"); #Mudar para o html da pagina
+            header("location: ../crud_index.php"); #Mudar para o html da pagina
             mysqli_close($link); 
         }
     }
