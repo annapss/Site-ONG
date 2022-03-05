@@ -1,8 +1,9 @@
 <table class="table table-dark table-striped center" style="width: 100%;">
 	<?php
 		//incluir o .php que contecta no bd, checar se ta no diretorio correto!!!!
-		include 'C:\xampp\htdocs\Site_ONG\Back-end\banco\conecta_banco.php'; #Mudar ao sair do beta
+		include '../banco/bancoONG.php'; #Mudar ao sair do beta
 
+		$link = conexao();
 		/* enviando a consulta para o banco de dados */
         $sql = "select * from  grandes_altitudes.Login AS L INNER JOIN  grandes_altitudes.Voluntario AS V ON (V.Email = L.Email)";
 		$resposta = mysqli_query($link, $sql);

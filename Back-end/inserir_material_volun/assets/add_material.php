@@ -1,6 +1,6 @@
 <?php
     // adiciciona no banco tarefas enviadas pelo voluntarios
-    include "conecta_banco.php";
+    include "../../banco/conecta_banco.php";
 
     $materia = $_POST["materia"];
     $conteudo = $_POST["conteudo"];

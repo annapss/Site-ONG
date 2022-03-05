@@ -25,14 +25,14 @@
                 font-weight: bold;
             }
         </style>
-       
+        <?php include 'C:\xampp\htdocs\Site-ong/Front-End/assets/xmenu.php';?> 
     </head>
     <body style="background-color:blanchedalmond;">
         <div class="body contornar" style="background-color: #73cee3;">
             <br><br><br>
             <h1>Consultar Materia</h1>
         </div>
-        <div class="body" style="height: 100%;">  
+        <div class="body">  
             <form method="post" action="consulta_material.php">
                 
                 <p>
@@ -67,5 +67,6 @@
                 </p>
             </form>    
         </div>
+        <div class="body" style="height: 80%;"></div>
     </body>    
 </html>

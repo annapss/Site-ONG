@@ -1,5 +1,5 @@
 label{
-    font-size: 16px;
+    font-size: 18px;
 }
 body{
     background-color: blanchedalmond;
@@ -12,6 +12,7 @@ body{
     color: #efefef;
     font-family: "Open Sans", Arial, sans-serif;
 }
+.text-box{ padding: 0px 20% 0px 20%;}
 .contornar{
     color:#FFCCAC; 
     text-shadow:#000 2px -2px, #000 -2px 2px, #000 2px 2px, #000 -2px -2px;

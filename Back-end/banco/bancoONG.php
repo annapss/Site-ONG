@@ -1,6 +1,7 @@
 <?php
 
 include "conecta_banco.php"; //arquivo com funcoes para conexao com o banco
+$link = conexao();
 
 $sql = <<<FIM
 CREATE DATABASE if NOT EXISTS grandes_altitudes;

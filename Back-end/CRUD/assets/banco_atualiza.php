@@ -9,8 +9,8 @@
     {      
         //-------------------------Inicio da Conexão-------------------------//
         //incluir o .php que contecta no bd, checar se ta no diretorio correto!!!!
-        include 'C:\xampp\htdocs\Site_ONG\Back-end\banco\conecta_banco.php'; #Mudar ao sair do beta
-
+        include '../../banco/bancoONG.php'; #Mudar ao sair do beta
+        $link = conexao();
         //caso a senha seja vazia
         if($password == "da39a3ee5e6b4b0d3255bfef95601890afd80709")
         {

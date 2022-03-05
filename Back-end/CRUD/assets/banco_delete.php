@@ -9,7 +9,9 @@
 
         //-------------------------Inicio da Conexão-------------------------//
         //incluir o .php que contecta no bd, checar se ta no diretorio correto!!!!
-        include 'C:\xampp\htdocs\Site-ONG(Beta)\conecta_banco.php'; #Mudar ao sair do beta
+        include '../../banco/bancoONG.php'; #Mudar ao sair do beta
+
+        $link = conexao();
 
 		if(!mysqli_select_db($link,$banco))
 		{
