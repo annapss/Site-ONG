@@ -18,7 +18,7 @@
                 <p>
                     <label for="materia">Matéria:</label>
                     <div class="text-box">
-                        <select class="form-control form-control-sm" aria-label=".form-select-sm example" id="materia" name="materia">
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="materia" name="materia">
                             <option>Selecione uma Matéria</option>
                             <option>Artes</option>
                             <option>Biologia</option>

@@ -29,7 +29,7 @@
                 <p>    
                     <label for="formato">Formato:</label>
                     <div class="text-box">
-                        <select name="formato"  id="formato" class="form-control form-control-sm">
+                        <select name="formato"  id="formato" class="form-select form-select-sm">
                             <option>Selecione uma opção</option>
                             <option value="Vide-aula">Vídeo Aula</option>
                             <option value="Resumo">Resumo</option>
