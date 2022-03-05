@@ -6,7 +6,7 @@
 <?php
     // Consulta as tarefas enviadas pelo voluntario (consultar material feito)
     
-    include "conecta_banco.php"; 
+    include '../../banco/bancoONG.php';
 
     function mateCont($materia, $conteudo){
 

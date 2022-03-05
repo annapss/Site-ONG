@@ -6,7 +6,7 @@
             $telefone = $_REQUEST['telefone'];
             $email = $_REQUEST['email'];
         ?>
-        <link rel="stylesheet" href="assets\css_crud.css">
+        <link rel="stylesheet" href="../assets/css/site.css">
     </head>
     <body>
         <div class="body contornar" style="background-color: #73cee3;">
