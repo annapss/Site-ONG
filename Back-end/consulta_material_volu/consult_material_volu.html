@@ -25,7 +25,7 @@
                 font-weight: bold;
             }
         </style>
-        <?php include 'C:\xampp\htdocs\Site_ONG\Front-End\assets\xmenu.php'; ?>
+       
     </head>
     <body style="background-color:blanchedalmond;">
         <div class="body contornar" style="background-color: #73cee3;">
@@ -34,30 +34,32 @@
         </div>
         <div class="body" style="height: 100%;">  
             <form method="post" action="consulta_material.php">
-                <!--<input type="hidden" name="id_contato" value="<?=$id_contato?>">-->
+                
                 <p>
-                    <label for="materia">Matéria:</label><br>
-                    <input type="text" id="materia_consult" size="30" name="materia_consult">
-                </p>
-
-                <p>
-                    <label for="conteudo_consult">Conteúdo:</label><br>
-                    <input type="text" size="30" id="conteudo_consult" name="conteudo_consult">
-                </p>
-
-                <p">    
-                    <label for="formato_consult">Formato:</label><br>
-                    <select name="formato_consult"  id="formato_consult">
-                        <option>Selecione uma opção</option>
-                        <option value="Vide-aula">Vídeo Aula</option>
-                        <option value="resumo">Resumo</option>
-                        <option value="reels-tiktok">Reels ou TikTok</option>
+                    <label for="materia">Matéria:</label>
+                    <select class="form-select form-select mb-3" aria-label=".form-select-sm example" id="materia" name="materia">
+                        <option>Selecione uma Matéria</option>
+                        <option>Artes</option>
+                        <option>Biologia</option>
+                        <option>Espanhol</option>
+                        <option>Filosofia</option>
+                        <option>Física</option>
+                        <option>Geografia</option>
+                        <option>História</option>
+                        <option>Inglês</option>
+                        <option>Literatura</option>
+                        <option>Matemática</option>
+                        <option>Português</option>
+                        <option>Química</option>
+                        <option>Redação</option>
+                        <option>Sociologia</option>
                     </select>
                 </p>
+               
 
-                <p>    
-                    <label for="autor_consult">Feita(o) por:</label><br>
-                    <input type="text" id="autor_consult" size="30" name="autor_consult">
+                <p>
+                    <label for="conteudo">Conteúdo:</label>
+                    <input type="text" size="40" id="conteudo" name="conteudo">
                 </p>
                 
                 <p>

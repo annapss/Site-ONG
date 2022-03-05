@@ -32,7 +32,6 @@
   </head>
   <body>
    
-  <?php include 'C:\xampp\htdocs\Site_ONG\Front-End\assets\xmenu.php';?>
 
 <main>
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">

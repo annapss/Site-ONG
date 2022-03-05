@@ -37,12 +37,11 @@
 
    
      function executa_select($link, $sql){ // executamos o sql
-
-   
             $resposta = mysqli_query($link, $sql);
-            if($resposta) // se o sql der certo
+            if($resposta)  // se o sql der certo
             {
                 $linha = mysqli_fetch_assoc($resposta); // armazena o resultado em forma de array (primeira linha do resultado) 
+                
                 while($linha)
                 {
                     yield $linha;
@@ -53,8 +52,12 @@
             {
                 echo mysqli_error($link);
             }
+        } 
 
-     }
+   
+            
+        
+    
    
      function executa_sql($link, $sql){
 
@@ -65,7 +68,7 @@
             echo mysqli_error($link);
         }
      }
-            
+       
         
     
 

@@ -37,6 +37,6 @@ CREATE TABLE grandes_altitudes.Login(
    );
 FIM;
 
-executar_sql($link, $sql);
+executa_sql($link, $sql);
 
 ?>
