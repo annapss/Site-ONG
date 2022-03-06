@@ -13,9 +13,12 @@
 
         $link = conexao();
 
-        //processa a ultima query feita
+        //processa a query
         $process = mysqli_query($link,$sql);
 
+         //processa a ultima query feita
+        $sql = "delete from grandes_altitudes.Login where Email = '$email'";
+        $process = mysqli_query($link,$sql);
         //caso a query não tenha sido processada corretamente
         if(!$process)
         {
