@@ -68,7 +68,7 @@
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
   <div class="container marketing">
-  <div class="container"> 
+  <div class="container">
 
     <!-- Three columns of text below the carousel -->
     <div class="py-3">
@@ -197,7 +197,7 @@
 
     <!-- /END THE FEATURETTES -->
   </div>
-  </div><!-- /.container -->
+  </div><!-- /.container Marketing -->
 
 
   <!-- FOOTER -->
