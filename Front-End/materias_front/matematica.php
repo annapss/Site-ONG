@@ -159,6 +159,53 @@
 
     <hr class="featurette-divider">
 
+    <h2 class="featurette-heading">Resumos Maiores</h2>
+
+    <!-- Three columns of text below the carousel -->
+
+    <div class="py-3">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>-->
+            <img src="../../Imagens_and_icons/logoResumoMSenoCosseno.png" class="card-img-top" width="100%" height="180">
+            <div class="card-body">
+              <h5 class="card-title">Lei dos senos e cossenos</h5>
+                <p class="card-text"> Por Gabriela Aragão</p>
+              <a href="https://drive.google.com/file/d/1Cr5Gsj0LJ4vZ9PW1heMRCZljEOTlflNF/view?usp=sharing" target="_blank" class="btn btn-primary" role="button">Ver resumo!</a>
+            </div>
+          </div>
+        </div><!-- /.col-lg-4 -->
+    
+        <div class="col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+
+
+    <hr class="featurette-divider">
+
     <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
