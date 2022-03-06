@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Carousel Template · Bootstrap v5.1</title>
+    <title>Formulário de Inscrição</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
     
     <!-- Bootstrap core CSS -->
@@ -173,7 +173,7 @@
     <!-- /END THE FEATURETTES -->
   <!-- FOOTER -->
   <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
+    <p class="float-end"><a href="#">Voltar ao topo</a></p>
     <p>&copy; 2018–2021 Grande A(l)titudes, Ong. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>

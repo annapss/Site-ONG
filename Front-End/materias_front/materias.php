@@ -29,6 +29,12 @@
           font-size: 3.5rem;
         }
       }
+
+      .container { /*Centralização das Matérias na Página*/  
+        width: 700px; 
+        margin-left: auto;
+        margin-right: auto; 
+      }
     </style>
 
     
@@ -62,26 +68,33 @@
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
   <div class="container marketing">
+  <div class="container"> 
 
     <!-- Three columns of text below the carousel -->
     <div class="py-3">
       <div class="row">
         <div class="col-lg-4">
           <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
+          <!-- MATEMÁTICA -->
           <img src="../../Imagens_and_Icons/logoMatematica.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Matemática</h2>
-          <p><a class="btn btn-secondary" href="matematica.php" role="button">Materiais</a></p>
+          <p><a class="btn btn-secondary" href="matematica.php" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
+
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          <!-- QUÍMICA -->
+          <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
+          <img src="../../Imagens_and_Icons/logoQuimica.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Química</h2>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
+        <div class="col-lg-4">
+          <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
+          <!-- FÍSICA -->
+          <img src="../../Imagens_and_Icons/logoFisica.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Física</h2>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
     </div>
@@ -89,21 +102,26 @@
     <div class="py-3">
       <div class="row">
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
+          <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+          <!-- HISTÓRIA -->
+          <img src="../../Imagens_and_Icons/logoHistoria.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>História</h2>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
+        <div class="col-lg-4">
+          <!-- GEOGRAFIA -->
+          <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+          <img src="../../Imagens_and_Icons/logoGeografia.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Geografia</h2>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
+
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
+          <img src="../../Imagens_and_Icons/logoLiteratura.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Literatura</h2>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
     </div>
@@ -111,59 +129,63 @@
     <div class="py-3">
       <div class="row">
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
+          <img src="../../Imagens_and_Icons/logoIngles.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Inglês</h2>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
+        <div class="col-lg-4">
+          <img src="../../Imagens_and_Icons/logoBiologia.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Biologia</h2>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
+
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          <img src="../../Imagens_and_Icons/logoEspanhol.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Espanhol</h2>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
+
       </div><!-- /.row -->
     </div>
 
     <div class="py-3">
       <div class="row">
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
+          <img src="../../Imagens_and_Icons/logoRedacao.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Redação</h2>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-          <h2>Português</h2>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-          <h2>Filosofia</h2>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <img src="../../Imagens_and_Icons/logoPortugues.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
+          <h2>Português</h2>
+          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+          <img src="../../Imagens_and_Icons/logoFilosofia.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
+          <h2>Filosofia</h2>
+          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
+        </div><!-- /.col-lg-4 -->
+
       </div><!-- /.row -->
     </div>
 
     <div class="py-3">
       <div class="row">
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          <img src="../../Imagens_and_Icons/logoSociologia.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Sociologia</h2>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
+
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-          <h2>Artes</h2>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <img src="../../Imagens_and_Icons/logoArtes.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
+        <h2>Artes</h2>
+          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
+        
       </div><!-- /.row -->
     </div>
 
@@ -174,14 +196,14 @@
     <hr class="featurette-divider">
 
     <!-- /END THE FEATURETTES -->
-
+  </div>
   </div><!-- /.container -->
 
 
   <!-- FOOTER -->
   <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p class="float-end"><a href="#">Voltar ao topo</a></p>
+    <p>&copy; 2018–2021 Grande A(l)titudes, Ong. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>
 
