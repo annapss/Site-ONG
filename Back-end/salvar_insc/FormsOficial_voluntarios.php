@@ -31,6 +31,8 @@
   <link href="../../Front-End/Index_and_css/carousel.css" rel="stylesheet">
   </head>
   <body>
+
+  <?php include '../../Front-End/assets/xmenu.php';?>
    
 
 <main>

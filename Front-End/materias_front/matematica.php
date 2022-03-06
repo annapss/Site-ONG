@@ -37,7 +37,7 @@
   </head>
   <body>
     
-    <?php include 'C:\xampp\htdocs\Site-ong/Front-End/assets/xmenu.php';?>
+    <?php include '../assets/xmenu.php';?>
 
 <main>
 
