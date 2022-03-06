@@ -81,7 +81,7 @@
           <div class="carousel-caption">
             <h1>Possui alguma Dúvida?</h1>
             <p>Consulte as Dúvidas mais Frequentes!</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Dúvidas Frequentes</a></p> 
+            <p><a class="btn btn-lg btn-primary" href="duvidas_frequentes.php">Dúvidas Frequentes</a></p> 
           </div>
         </div>
       </div>
@@ -124,7 +124,7 @@
         <h2>Helena</h2>
         <p>O mérito do meu ingresso na UFF,dedico totalmente a essa ONG maravilhosa. Hoje sou formada em Engenharia da computação, mas conheci a ONG quando tinha apenas 18 anos. Os resumos são incíveis, altamente detalhados e completos! Muito obrigado a todos que colaboram até hoje para esse projeto surreal!</p>
         <p>Vocês são Incíveis. :)</p>
-        <p><a class="btn btn-secondary" href="#">Veja mais depoimentos&raquo;</a></p>
+        <p><a class="btn btn-secondary" href="depoimentos.php">Veja mais depoimentos &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       
       <div class="col-lg-4">
@@ -132,7 +132,6 @@
         <img src="../../Imagens_and_Icons/mulher.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">
         <h2>Giulia</h2>
         <p>And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
