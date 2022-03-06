@@ -9,17 +9,9 @@
 
         //-------------------------Inicio da Conexão-------------------------//
         //incluir o .php que contecta no bd, checar se ta no diretorio correto!!!!
-        include '../../banco/bancoONG.php'; #Mudar ao sair do beta
+        include '../../banco/conecta_banco.php'; #Mudar ao sair do beta
 
         $link = conexao();
-
-		if(!mysqli_select_db($link,$banco))
-		{
-			echo "erro no select_db";
-			echo mysqli_error($link);
-			mysqli_close($link);
-			die();
-		}
 
         //processa a ultima query feita
         $process = mysqli_query($link,$sql);
@@ -34,7 +26,7 @@
         }
         else{
             //tendo sucesso, direciona para a pagina que contem os dados em display
-            header("location: banco_lista.php"); #Mudar para o html da pagina
+            header("location: ../crud_index.php"); #Mudar para o html da pagina
             mysqli_close($link); 
         }
     }
