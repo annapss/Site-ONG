@@ -35,7 +35,7 @@
                         <td>$telefone</td>
                         <td>$email</td>
                         <td>$senha</td>
-                        <td><a href='banco_delete.php?email={$email}'>Delete</a>
+                        <td><a href='assets/banco_delete.php?email={$email}'>Delete</a>
                         <br><a href='edit_form.php?email={$email}&nome={$nome}&telefone={$telefone}&senha={$senha}'>Edit</a>
                         </td>
                     </tr>";
