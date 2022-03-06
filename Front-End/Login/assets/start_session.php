@@ -29,8 +29,8 @@
     if($confirm == 1){
         session_start();
         $_SESSION["email"] = $inputEmail; 
-        echo "Bem vindo $inputEmail";
-        echo "<br>Redirecionar para parte do login e tudo mais la";
+        header('Location: ../../pag_perfil_vol_coord/conta.php');
+        exit();
     }
     else
         echo '<script>alert("Usuário ou senha estão errados.");location.href="../login.php";</script>';
