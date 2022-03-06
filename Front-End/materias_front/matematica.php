@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Carousel Template · Bootstrap v5.1</title>
+    <title>Matemática</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
@@ -88,7 +88,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Assistir aula!</a>
             </div>
           </div>
         </div><!-- /.col-lg-4 -->
@@ -100,7 +100,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Assistir aula!</a>
             </div>
           </div>
         </div><!-- /.col-lg-4 -->
@@ -137,7 +137,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Ver resumo!</a>
             </div>
           </div>
         </div><!-- /.col-lg-4 -->
@@ -149,7 +149,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Ver resumo!</a>
             </div>
           </div>
         </div><!-- /.col-lg-4 -->
@@ -184,7 +184,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Ver resumo!</a>
             </div>
           </div>
         </div><!-- /.col-lg-4 -->
@@ -196,7 +196,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Ver resumo!</a>
             </div>
           </div>
         </div><!-- /.col-lg-4 -->

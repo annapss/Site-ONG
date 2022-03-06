@@ -12,7 +12,7 @@
 
     
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CS -->
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
