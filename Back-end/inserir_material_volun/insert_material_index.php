@@ -46,6 +46,10 @@
                 </p>
                 
                 <p>
+                    <a class="btn btn-primary" href="../../Front-End/pag_perfil_vol_coord/conta.php" role="button">Voltar ao perfil</a>
+                </p>
+
+                <p>
                     <input type="submit" value="Adicionar" class="btn btn-primary">
                 </p>
             </form>

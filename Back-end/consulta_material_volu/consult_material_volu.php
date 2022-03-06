@@ -5,7 +5,7 @@
         <link href="../../Front-End/assets/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    
         <link rel="stylesheet" href="../assets/css/site.css">
-        <?php include 'C:\xampp\htdocs\Site-ong/Front-End/assets/xmenu.php';?> 
+        <?php include '../../Front-End/assets/xmenu.php';?> 
     </head>
     <body style="background-color:blanchedalmond;">
         <div class="body contornar" style="background-color: #73cee3;">
@@ -44,6 +44,10 @@
                     <div class="text-box">
                         <input type="text" size="40" id="conteudo" name="conteudo" class="form-control form-control-sm">
                     </div>    
+                </p>
+
+                <p>
+                    <a class="btn btn-primary" href="../../Front-End/pag_perfil_vol_coord/conta.php" role="button">Voltar ao perfil</a>
                 </p>
                 
                 <p>

@@ -10,6 +10,9 @@
             <h1>Crud</h1>
         </div>
         <div class="body">  
+            <p>
+                <a class="btn btn-primary" href="../../Front-End/pag_perfil_vol_coord/conta.php" role="button">Voltar ao perfil</a>
+            </p>
             <?php include 'assets\banco_lista.php';?>
         </div>
         <div class="body" style="height: 80%;"></div>
