@@ -39,7 +39,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="Front-End/carousel/carousel.css" rel="stylesheet">
+    <link href="../Index_and_css/carousel.css" rel="stylesheet">
   </head>
   <body>
     

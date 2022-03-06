@@ -33,11 +33,11 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="Front-End/carousel/carousel.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
   </head>
   <body>
     
-  <!-- HEADER --> <?php include 'C:\xampp\htdocs\Site-ong/Front-End/assets/xmenu.php'; /* Lindinho capaz de substituir o header s2 */ ?> 
+  <!-- HEADER --> <?php include '../assets/xmenu.php'; /* Lindinho capaz de substituir o header s2 */ ?> 
 
 <main>
 
