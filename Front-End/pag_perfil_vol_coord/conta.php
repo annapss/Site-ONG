@@ -45,20 +45,23 @@
       <div class="position-sticky pt-3">
         <ul class="nav flex-column">
           <li class="nav-item">
+          <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            <span>Área do Voluntário</span>
+          </h6>
             <a class="nav-link active" aria-current="page" href="conta.php">
               <span data-feather="home"></span>
-              Voluntário
+              Página Inicial
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../../Back-End/consulta_material_volu/consult_material_volu.php">
-              <span data-feather="file"></span>
+              <span data-feather="search"></span>
               Consulta de materiais
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../../Back-End/inserir_material_volun/insert_material_index.php">
-              <span data-feather="shopping-cart"></span>
+              <span data-feather="edit"></span>
               Adicionar novo conteúdo
             </a>
           </li>
