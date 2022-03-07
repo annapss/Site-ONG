@@ -1,7 +1,23 @@
 <?php
     // arquivo para conexão com o banco de dados
 
-    function conexao(){ //chamando essa função abrimos a e escolhemos o banco e dados
+    function conectaServer(){ //funcao para criacao do banco da ONG em bancoONG.php
+        $host = "localhost";
+        $usuario = "root";
+        $senha = "";
+        $banco = "grandes_altitudes";
+        
+        $link = mysqli_connect($host,$usuario,$senha);
+        if(!$link)
+        {
+            echo "Erro de conexao: " . mysqli_connect_error();
+            die();
+        }
+        return $link;
+    }
+
+
+    function conexao(){ //chamando essa função abrimos a conexao com o server e escolhemos o banco e dados
 
         $host = "localhost";
         $usuario = "root";

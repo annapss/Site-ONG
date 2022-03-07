@@ -1,7 +1,8 @@
 <?php
+        //arquivo para criacao do banco da ONG
 
-        include "conecta_banco.php"; //arquivo com funcoes para conexao com o banco
-        $link = conexao();
+        include "conecta_banco.php"; 
+        $link = conectaServer();
 
         $sql = <<<FIM
         CREATE DATABASE if NOT EXISTS grandes_altitudes;
