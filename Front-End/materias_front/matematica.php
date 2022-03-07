@@ -72,10 +72,10 @@
         <div class="col-lg-4">
           <div class="card" style="width: 18rem;">
             <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>-->
-            <img src="../../Imagens_and_icons/logoPoligonosRegulares.png" class="card-img-top" width="100%" height="180">
+            <img src="../../Imagens_and_icons/rosaMatematica.png" class="card-img-top" width="100%" height="180">
             <div class="card-body">
               <h5 class="card-title">Polígonos Regulares</h5>
-                <p class="card-text">Por Anna Paula Siqueira e edição por Fábio Carrião</p>
+                <p class="card-text">Por Anna Paula Siqueira e edição de Fábio Carrião</p>
               <a href="videoPoligonos.php" class="btn btn-primary" role="button">Assistir aula!</a>
             </div>
           </div>
@@ -83,24 +83,24 @@
     
         <div class="col-lg-4">
           <div class="card" style="width: 18rem;">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
             <!--<img src="..." class="card-img-top" alt="...">-->
+            <img src="../../Imagens_and_icons/rosaMatematica.png" class="card-img-top" width="100%" height="180">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Assistir aula!</a>
+              <h5 class="card-title">Funções de 1° Grau</h5>
+              <p class="card-text">Por Maria Eduarda Falcão e edição de Antonio Pedro Amorim</p>
+              <a href="videoFuncoes1grau.php" class="btn btn-primary">Assistir aula!</a>
             </div>
           </div>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
           <div class="card" style="width: 18rem;">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+            <img src="../../Imagens_and_icons/rosaMatematica.png" class="card-img-top" width="100%" height="180">
             <!--<img src="..." class="card-img-top" alt="...">-->
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Assistir aula!</a>
+              <h5 class="card-title">Áreas de Figuras Planas: Círculo, Retângulo, Quadrado e Triângulo</h5>
+              <p class="card-text">Por Alycia Perusse e edição de Antonio Pedro Amorim.</p>
+              <a href="videoAreas_figuras_planas.php" class="btn btn-primary">Assistir aula!</a>
             </div>
           </div>
         </div><!-- /.col-lg-4 -->
@@ -121,7 +121,7 @@
         <div class="col-lg-4">
           <div class="card" style="width: 18rem;">
             <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>-->
-            <img src="../../Imagens_and_icons/logoResumoArcos.png" class="card-img-top" width="100%" height="180">
+            <img src="../../Imagens_and_icons/rosaMatematica.png" class="card-img-top" width="100%" height="180">
             <div class="card-body">
               <h5 class="card-title">Soma e subtração de arcos</h5>
                 <p class="card-text">Por Gabriela Aragão e design por Júlia Marchiò</p>
@@ -132,7 +132,7 @@
     
         <div class="col-lg-4">
           <div class="card" style="width: 18rem;">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+            <img src="../../Imagens_and_icons/rosaMatematica.png" class="card-img-top" width="100%" height="180">
             <!--<img src="..." class="card-img-top" alt="...">-->
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -144,7 +144,7 @@
 
         <div class="col-lg-4">
           <div class="card" style="width: 18rem;">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+            <img src="../../Imagens_and_icons/rosaMatematica.png" class="card-img-top" width="100%" height="180">
             <!--<img src="..." class="card-img-top" alt="...">-->
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -168,7 +168,7 @@
         <div class="col-lg-4">
           <div class="card" style="width: 18rem;">
             <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>-->
-            <img src="../../Imagens_and_icons/logoResumoMSenoCosseno.png" class="card-img-top" width="100%" height="180">
+            <img src="../../Imagens_and_icons/rosaMatematica.png" class="card-img-top" width="100%" height="180">
             <div class="card-body">
               <h5 class="card-title">Lei dos senos e cossenos</h5>
                 <p class="card-text"> Por Gabriela Aragão</p>
@@ -179,7 +179,7 @@
     
         <div class="col-lg-4">
           <div class="card" style="width: 18rem;">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+            <img src="../../Imagens_and_icons/rosaMatematica.png" class="card-img-top" width="100%" height="180">
             <!--<img src="..." class="card-img-top" alt="...">-->
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -191,7 +191,7 @@
 
         <div class="col-lg-4">
           <div class="card" style="width: 18rem;">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+            <img src="../../Imagens_and_icons/rosaMatematica.png" class="card-img-top" width="100%" height="180">
             <!--<img src="..." class="card-img-top" alt="...">-->
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
