@@ -5,7 +5,6 @@
         <link href="../../Front-End/assets/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    
         <link rel="stylesheet" href="../assets/css/site.css">
-        <?php include '../../Front-End/assets/xmenu.php';?> 
     </head>
     <body style="background-color:blanchedalmond;">
         <div class="body contornar" style="background-color: #73cee3;">
@@ -47,11 +46,11 @@
                 </p>
 
                 <p>
-                    <a class="btn btn-primary" href="../../Front-End/pag_perfil_vol_coord/conta.php" role="button">Voltar ao perfil</a>
+                    <input type="submit" name="consult_materias" value="Consultar" class="btn btn-primary mb-3">
                 </p>
                 
                 <p>
-                    <input type="submit" name="consult_materias" value="Consultar" class="btn btn-primary mb-3">
+                    <a class="btn btn-primary" href="../../Front-End/pag_perfil_vol_coord/conta.php" role="button">Voltar ao perfil</a> 
                 </p>
             </form>    
         </div>
