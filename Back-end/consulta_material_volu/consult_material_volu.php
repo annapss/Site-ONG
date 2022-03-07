@@ -7,9 +7,8 @@
         <link rel="stylesheet" href="../assets/css/site.css">
         <title>Consultar Material</title>
     </head>
-    <body style="background-color:blanchedalmond;">
+    <body>
         <div class="body contornar" style="background-color: #73cee3;">
-            <br><br><br>
             <h1>Consultar Materia</h1>
         </div>
         <div class="body">  

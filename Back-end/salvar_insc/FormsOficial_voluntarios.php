@@ -54,7 +54,7 @@
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
 
-<form action="save_ins.php" method="post">
+<form action="assets/save_ins.php" method="post">
   <div class="container">
     <div class="row justify-content-md-center">
       <div class="col-md-12">

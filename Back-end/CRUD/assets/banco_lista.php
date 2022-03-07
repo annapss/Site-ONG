@@ -1,4 +1,4 @@
-<table class="table table-dark table-striped center" style="width: 100%;">
+<table class="table table-dark table-striped" style="width: 100%;">
 	<?php
 		//incluir o .php que contecta no bd, checar se ta no diretorio correto!!!!
 		include '../banco/bancoONG.php'; #Mudar ao sair do beta
