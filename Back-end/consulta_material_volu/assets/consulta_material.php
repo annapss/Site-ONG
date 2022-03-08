@@ -49,7 +49,11 @@
      $conteudo = $_POST['conteudo'];
     
      if ($materia == "Selecione uma Matéria" && empty($conteudo)){  // Não foi informado a matéria e nem o conteúdo
-            echo "<h1 style='font-size: 40px;'>Pelo menos um campo deve ser preenchido</h1>";
+        echo '<script type="text/javascript">
+                alert("Deve ser preenchido pelo menos um campo.")
+                window.location = "http://localhost/Site-ONG/Back-End/consulta_material_volu/consult_material_volu.php"
+              </script>';
+              //Redirecionamento para a página de consultar os materiais, junto a uma mensagem de que deve ter pelo menos um campo preenchido.
      }else{
 
         if (empty($conteudo)){ //filtrando apenas pela matéria
@@ -78,7 +82,11 @@
                 }
                 echo "</tr>";
                 }else{  //material não feito
-                    echo "<h1 style='font-size: 40px;'>Não há material feito em $materia</h1>";
+                    //echo "<h1 style='font-size: 40px;'>Não há meterial feito sobre $materia</h1>";
+                    echo '<script type="text/javascript">
+                            alert("Não há material feito sobre está matéria.")
+                            window.location = "http://localhost/Site-ONG/Back-End/consulta_material_volu/consult_material_volu.php"
+                          </script>';
                 }
         }
                     
@@ -107,8 +115,12 @@
                 
                 }
                 echo "</tr>";
-            }else{     // material não feito
-                echo "<h1 style='font-size: 40px;'>Não há meterial feito sobre $conteudo</h1>";
+            }else{     // Conteúdo não feito em certa material
+                //echo "<h1 style='font-size: 40px;'>Não há meterial feito sobre $conteudo</h1>";
+                echo '<script type="text/javascript">
+                            alert("Não há meterial feito sobre este Conteúdo.")
+                            window.location = "http://localhost/Site-ONG/Back-End/consulta_material_volu/consult_material_volu.php"
+                          </script>';
             }
                 
         }       
@@ -140,7 +152,11 @@
             }
             echo "</tr>";
             }else{    // material não feito
-                echo "<h1 style='font-size: 40px;'>Não há material feito em $materia sobre $conteudo</h1>";
+                //echo "<h1 style='font-size: 40px;'>Não há material feito em $materia sobre $conteudo</h1>";
+                echo '<script type="text/javascript">
+                            alert("Não há meterial feito sobre este Conteúdo.")
+                            window.location = "http://localhost/Site-ONG/Back-End/consulta_material_volu/consult_material_volu.php"
+                          </script>';
             }
             
         }

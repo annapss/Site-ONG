@@ -114,8 +114,6 @@
         <h2>Cleiton Rasta</h2>
         <p>INCRÍVEL IGUAL AS MINHAS PEDRADAS!</p>
         <p>Graças ao material disponibilizado, consegui entrar no melhor da UFRJ! Especialização no jogo do bicho. Atualmente, estou realizando meu sonho, doutorado no jogo do bicho,grato eternamente a ONG.</p>
-        <p><i>#vitoriachegoudeusabencoou</i></p> 
-        <p><a class="btn btn-secondary" href="https://youtu.be/hzd-ziP0sBQ"> s2 &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       
       <div class="col-lg-4">
@@ -186,15 +184,11 @@
 
 
   <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-end"><a href="#">Voltar ao topo</a></p>
-    <p>&copy; 2018–2021 Grande A(l)titudes, Ong. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
 </main>
-
-
+  <footer class="container">
+      <p class="float-end"><a href="#">Voltar ao topo</a></p>
+      <p>&copy; 2018–2021 Grande A(l)titudes, Ong. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
-      
   </body>
 </html>

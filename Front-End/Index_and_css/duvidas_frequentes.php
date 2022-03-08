@@ -31,11 +31,9 @@
       }
     </style>
 
-    
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
   <body>
-    
   <!-- HEADER --> <?php include '../assets/xmenu.php'; /* Lindinho capaz de substituir o header s2 */ ?> 
 
