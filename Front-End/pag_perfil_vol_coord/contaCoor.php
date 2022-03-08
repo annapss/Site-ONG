@@ -1,6 +1,6 @@
 <!doctype html>
 
-<!-- Area do voluntario -->
+<!-- Area do coordenador -->
 
 <html lang="en">
   <head>
@@ -48,24 +48,21 @@
       <div class="position-sticky pt-3">
         <ul class="nav flex-column">
           <li class="nav-item">
-          <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-            <span>Área do Voluntário</span>
-          </h6>
-            <a class="nav-link active" aria-current="page" href="conta.php">
-              <span data-feather="home"></span>
-              Página Inicial
+
+        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+          <span>Área do coordenador</span>
+        </h6>
+        <ul class="nav flex-column mb-2">
+          <li class="nav-item">
+            <a class="nav-link" href="../../Back-End/CRUD/crud_index.php">
+              <span data-feather="file-text"></span>
+              CRUD
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../Back-End/consulta_material_volu/consult_material_volu.php">
-              <span data-feather="search"></span>
-              Consulta de materiais
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../Back-End/inserir_material_volun/insert_material_index.php">
-              <span data-feather="edit"></span>
-              Adicionar novo conteúdo
+            <a class="nav-link" href="../../Back-End/salvar_insc/leitura_ins.php">
+              <span data-feather="file-text"></span>
+              Novas Inscrições
             </a>
           </li>
         </ul>
@@ -74,7 +71,7 @@
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Seja bem-vindo a área do voluntário</h1>
+        <h1 class="h2">Seja bem-vindo a área do coordenador</h1>
       </div>
 
 

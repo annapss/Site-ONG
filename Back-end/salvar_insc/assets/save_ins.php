@@ -49,10 +49,10 @@
    
     if($a == 1){ //se a pessoa não preencher a checkbox "diaho" e preencher a textarea "presencial" 
             
-    file_put_contents("ins.csv", "$nome; $telefone; $participacao; $diho; $grau; $presencial; $materias; $outros\n", FILE_APPEND );
+    file_put_contents("insc.csv", "$nome; $telefone; $participacao; $diho; $grau; $presencial; $materias; $outros\n", FILE_APPEND );
     } 
     else{ // preencheu a checkbox "diaho", então não precisou preencher a textarea "presnecial"
-        file_put_contents("ins.csv", "$nome; $telefone; $participacao; $diho; $grau; ;$materias; $outros\n", FILE_APPEND );
+        file_put_contents("insc.csv", "$nome; $telefone; $participacao; $diho; $grau; ;$materias; $outros\n", FILE_APPEND );
     }
     
 

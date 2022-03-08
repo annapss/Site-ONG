@@ -16,7 +16,7 @@
         <div class="body">  
             <?php include 'assets/lista_inscricoes.php'; ?>
             <p>
-                <a class="btn btn-primary" href="../../Front-End/pag_perfil_vol_coord/conta.php" role="button">Voltar ao perfil</a>
+                <a class="btn btn-primary" href="../../Front-End/pag_perfil_vol_coord/contaCoor.php" role="button">Voltar ao perfil</a>
             </p>
         </div>
         <div class="body" style="height: 80%;"></div>

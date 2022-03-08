@@ -11,12 +11,14 @@
     $query = mysqli_query($link, $sql);
 
     $confirm = 0;
+    $funcao = "";
 
     if($query){
         $row = mysqli_fetch_assoc($query);
         while($row){
             if($row["Email"] == $inputEmail && $row["Senha"] == sha1($inputPassword)){
                 $confirm = 1;
+                $funcao = $row["Funcao"];
                 break;
             }
             else
@@ -26,11 +28,19 @@
     else
         echo mysqli_error($link);
 
+    
+    
     if($confirm == 1){
         session_start();
         $_SESSION["email"] = $inputEmail; 
-        header('Location: ../../pag_perfil_vol_coord/conta.php');
+        if($funcao == "coordenador"){
+            header('Location: ../../pag_perfil_vol_coord/contaCoor.php');
+            exit();
+        }elseif($funcao = "voluntário"){
+            header('Location: ../../pag_perfil_vol_coord/conta.php');
         exit();
+        }
+        
     }
     else
         echo '<script>alert("Usuário ou senha estão errados.");location.href="../login.php";</script>';

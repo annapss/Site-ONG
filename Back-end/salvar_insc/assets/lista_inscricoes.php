@@ -3,7 +3,7 @@
 
     $linha = 1;
     //Nome; Telefone; Participacao; Dia_hora; Grau; Dia_hora_opcao; Materias; Outros
-    $arquivo = fopen("ins.csv", "r");
+    $arquivo = fopen("assets/insc.csv", "r");
 
     if ($arquivo != FALSE){
         $dados = fgetcsv($arquivo, 1000, ";");

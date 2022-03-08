@@ -9,6 +9,7 @@
         CREATE TABLE grandes_altitudes.Login(
                 Email  varchar(40),
                 Senha  varchar(500),
+                Funcao varchar(15),
 
                 PRIMARY KEY(Email)
         );
@@ -32,7 +33,7 @@
                 id_material int AUTO_INCREMENT,
                 Materia  varchar(50),
                 Conteudo  varchar(50),
-                Formato  varchar(10),
+                Formato  varchar(20),
                 Feita_por  varchar(50),
         
                 PRIMARY KEY(Id_material)

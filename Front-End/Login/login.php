@@ -8,7 +8,7 @@
         /* login FORM */
 
         #logreg-forms{
-            width:412px;
+            width: 412px;
             margin:10vh auto;
             background-color:#f3f3f3;
             box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -75,7 +75,7 @@
         #logreg-forms .form-signup input { margin-bottom: 2px;}
 
         .form-signup .social-login{
-            width:210px !important;
+            width: 210px !important;
             margin: 0 auto;
         }
 
@@ -182,9 +182,11 @@
             <input type="tel" id="user-number" name="user_number" class="form-control" placeholder="Telefone" required="" autofocus="">
             <input type="password" id="user-pass" name="user_pass" class="form-control" placeholder="Senha" required="" autofocus="">
             <input type="password" id="user-repeatpass" name="user_repeatpass" class="form-control" placeholder="Repetir Senha" required="" autofocus="">
-
-            <button class="btn btn-primary btn-block" type="submit"><i class="fas fa-user-plus"></i> Cadastrar</button>
+            <input type="text" id="user-funcao" name="user_funcao" class="form-control" placeholder="Voluntário ou Coordenador" required="" autofocus="">
+            
+            <button class="btn btn-primary btn-block" type="submit"><i class="fas fa-user-plus"></i>Cadastrar</button>
             <a href="#" id="cancel_signup"><i class="fas fa-angle-left"></i> Voltar</a>
+        
         </form>
         <br>
             
