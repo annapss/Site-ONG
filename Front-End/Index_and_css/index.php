@@ -47,9 +47,10 @@
     <div class="carousel-inner"> <!-- barra de navegação -->
     <!-- Redirecionamento para as informações sobre a ONG -->
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img class="bd-placeholder-img" width="100%" height="100%" src="../../Imagens_and_Icons/FundoGrande.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
         <div class="container">
           <div class="carousel-caption">
+            <!--style="color: black;" -->
             <h1>Seja bem-vindo ao Grandes A(l)titudes!</h1>
             <p>Quer entender o que fazemos?</p>
             <p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
@@ -60,7 +61,7 @@
 
       <!-- Redirecionamento para a página de inscrição de novos voluntários -->
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img class="bd-placeholder-img" width="100%" height="100%" src="../../Imagens_and_Icons/FundoVoluntario.jpg"aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
         <div class="container">
           <div class="carousel-caption">
             <h1>Quer ser voluntário?</h1>
@@ -73,7 +74,7 @@
 
       <!-- Perguntas Frequentes -->
       <div class="carousel-item"> <!-- Ideia pra fazer um lugar de Dúvidas frequentes e para esclarecer dúvidas de futuros voluntários/curiosos/estudantes-->
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img class="bd-placeholder-img" width="100%" height="100%" src="../../Imagens_and_Icons/FundoDuvida.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
         <div class="container">
           <div class="carousel-caption">
             <h1>Possui alguma Dúvida?</h1>
