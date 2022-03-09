@@ -16,7 +16,6 @@
         return $link;
     }
 
-
     function conexao(){ //chamando essa função abrimos a conexao com o server e escolhemos o banco e dados
 
         $host = "localhost";
@@ -44,7 +43,6 @@
 
         return $link; //com o link podemos chamar a a funcao executa_sql() no codigo
     }
-
    
     function executa_select($link, $sql){ // executamos o sql
 
@@ -63,7 +61,7 @@
             echo mysqli_error($link);
         }
 
-     }
+    }
    
      function executa_sql($link, $sql){
 

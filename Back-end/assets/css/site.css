@@ -1,10 +1,12 @@
-label{
+label {
     font-size: 18px;
 }
-body{
+
+body {
     background-color: blanchedalmond;
 }
-.body{
+
+.body {
     text-align: center;
     margin: 0% 30% 0% 30%;
     padding: 20px;
@@ -12,12 +14,16 @@ body{
     color: #efefef;
     font-family: "Open Sans", Arial, sans-serif;
 }
-.text-box{ padding: 0px 20% 0px 20%;}
-.contornar{
+
+.text-box{
+    padding: 0px 20% 0px 20%;
+}
+
+.contornar {
     color:#FFCCAC; 
     text-shadow:#000 2px -2px, #000 -2px 2px, #000 2px 2px, #000 -2px -2px;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6 {
     color: #efefef;
     font-weight: bold;
 }
