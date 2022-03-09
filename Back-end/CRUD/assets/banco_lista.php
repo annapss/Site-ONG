@@ -48,8 +48,5 @@
 			/* erro ao executar a consulta */
 			echo mysqli_error($link);
 		}
-
-		/* fecha a conexão */
-		mysqli_close($link);
 	?>
 </table>
