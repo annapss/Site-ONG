@@ -3,9 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.88.1">
     <title>Grandes A(l)titudes</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
@@ -111,24 +108,24 @@
       <div class="col-lg-4">
         <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
         <img src="../../Imagens_and_Icons/clei.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
-        <h2>Cleiton Rasta</h2>
-        <p>INCRÍVEL IGUAL AS MINHAS PEDRADAS!</p>
-        <p>Graças ao material disponibilizado, consegui entrar no melhor da UFRJ! Especialização no jogo do bicho. Atualmente, estou realizando meu sonho, doutorado no jogo do bicho,grato eternamente a ONG.</p>
+        <h2>Fernado Gonçalves</h2>
+        <p>...</p>
+        <p>...</p>
       </div><!-- /.col-lg-4 -->
       
       <div class="col-lg-4">
         <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
         <img src="../../Imagens_and_Icons/depoiment_real.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
-        <h2>Helena</h2>
+        <h2>Helena Florença</h2>
         <p>O mérito do meu ingresso na UFF,dedico totalmente a essa ONG maravilhosa. Hoje sou formada em Engenharia da computação, mas conheci a ONG quando tinha apenas 18 anos. Os resumos são incíveis, altamente detalhados e completos! Muito obrigado a todos que colaboram até hoje para esse projeto surreal!</p>
         <p>Vocês são Incíveis. :)</p>
-        <p><a class="btn btn-secondary" href="depoimentos.php">Veja mais depoimentos &raquo;</a></p>
+        <p><a class="btn btn-warning" href="depoimentos.php">Veja mais depoimentos</a></p>
       </div><!-- /.col-lg-4 -->
       
       <div class="col-lg-4">
         <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
         <img src="../../Imagens_and_Icons/mulher.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">
-        <h2>Giulia</h2>
+        <h2>Giulia Vitória</h2>
         <p>And lastly this, the third column of representative placeholder content.</p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
@@ -156,6 +153,7 @@
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Como funciona o voluntariado?</h2>
         <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        <a class="btn btn-primary" href="voluntariado_info.php" role="button">Sobre o Voluntário</a>
       </div>
       <div class="col-md-5 order-md-1">
         <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>

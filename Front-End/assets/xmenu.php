@@ -1,5 +1,5 @@
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"><!-- bg-dark -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info"><!-- bg-dark -->
     <div class="container-fluid">
       <a class="navbar-brand" href="../../Front-End/Index_and_css/index.php">Grandes A(l)titudes</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,9 @@
           </li>
         </ul>
         <form class="d-flex">
-          <a class="btn btn-outline-primary" href="../../Front-End/Login/login.php">Login</a>
+          <a class="btn btn-outline-warning" href="../../Front-End/Login/login.php">Login</a>
+                    <!--btn-outline-primary-->
+
           <!--<button type="button" class="btn btn-outline-primary" href="login.php">Login</button>-->
         </form>
       </div>

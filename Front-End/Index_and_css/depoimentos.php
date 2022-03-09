@@ -3,10 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.88.1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Grandes A(l)titudes</title>
 
@@ -52,12 +48,12 @@
                                 <div class="rounded overflow-hidden shadow-md bg-white">
                                     <div class="absolute -mt-20 w-full flex justify-center">
                                         <div class="h-32 w-32">
-                                            <img src="https://cdn.tuk.dev/assets/photo-1564061170517-d3907caa96ea.jfif" alt="Display Picture of Andres Berlin" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                            <img src="https://cdn.tuk.dev/assets/photo-1564061170517-d3907caa96ea.jfif" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
                                         </div>
                                     </div>
                                     <div class="px-6 mt-16">
-                                        <h1 class="font-bold text-3xl text-center mb-1">Andres Berlin</h1>
-                                        <p class="text-gray-800 text-sm text-center">Chief Executive Officer</p>
+                                        <h1 class="font-bold text-3xl text-center mb-1">André Berlim</h1>
+                                        <p class="text-gray-800 text-sm text-center">Formado em Psicologia na UFF</p>
                                         <p class="text-center text-gray-600 text-base pt-3 font-normal">INFO1</p>
                                         <div class="w-full flex justify-center pt-4 pb-4">
                                         </div>
@@ -68,12 +64,12 @@
                                 <div class="rounded overflow-hidden shadow-md bg-white">
                                     <div class="absolute -mt-20 w-full flex justify-center">
                                         <div class="h-32 w-32">
-                                            <img src="https://cdn.tuk.dev/assets/photo-1530577197743-7adf14294584.jfif" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                            <img src="https://cdn.tuk.dev/assets/photo-1530577197743-7adf14294584.jfif" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
                                         </div>
                                     </div>
                                     <div class="px-6 mt-16">
-                                        <h1 class="font-bold text-3xl text-center mb-1">Silene Tokyo</h1>
-                                        <p class="text-gray-800 text-sm text-center">Product Design Head</p>
+                                        <h1 class="font-bold text-3xl text-center mb-1">Caroline Rebeca</h1>
+                                        <p class="text-gray-800 text-sm text-center">Formada na UFRJ em Ciência da Computação </p>
                                         <p class="text-center text-gray-600 text-base pt-3 font-normal">INFO2</p>
                                         <div class="w-full flex justify-center pt-4 pb-4">
                                         </div>
@@ -84,11 +80,11 @@
                                 <div class="rounded overflow-hidden shadow-md bg-white">
                                     <div class="absolute -mt-20 w-full flex justify-center">
                                         <div class="h-32 w-32">
-                                            <img src="https://cdn.tuk.dev/assets/photo-1566753323558-f4e0952af115.jfif" alt="Display Picture of Johnson Stone" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                            <img src="https://cdn.tuk.dev/assets/photo-1566753323558-f4e0952af115.jfif" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
                                         </div>
                                     </div>
                                     <div class="px-6 mt-16">
-                                        <h1 class="font-bold text-3xl text-center mb-1">Johnson Stone</h1>
+                                        <h1 class="font-bold text-3xl text-center mb-1">Jonnatan dos Santos</h1>
                                         <p class="text-gray-800 text-sm text-center">Manager Development</p>
                                         <p class="text-center text-gray-600 text-base pt-3 font-normal">INFO3</p>
                                         <div class="w-full flex justify-center pt-4 pb-4">
@@ -100,12 +96,12 @@
                                 <div class="rounded overflow-hidden shadow-md bg-white">
                                     <div class="absolute -mt-20 w-full flex justify-center">
                                         <div class="h-32 w-32">
-                                            <img src="https://cdn.tuk.dev/assets/boy-smiling_23-2148155640.jpg" alt="Display Picture of Dean Jones" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                            <img src="https://cdn.tuk.dev/assets/boy-smiling_23-2148155640.jpg" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
                                         </div>
                                     </div>
                                     <div class="px-6 mt-16">
-                                        <h1 class="font-bold text-3xl text-center mb-1">Dean Jones</h1>
-                                        <p class="text-gray-800 text-sm text-center">Principal Software Engineer</p>
+                                        <h1 class="font-bold text-3xl text-center mb-1">Anderson Martins</h1>
+                                        <p class="text-gray-800 text-sm text-center">Análista e Desenvolvedor de Sistemas formado na UNICAMP</p>
                                         <p class="text-center text-gray-600 text-base pt-3 font-normal">INFO4</p>
                                         <div class="w-full flex justify-center pt-4 pb-4">
                                         </div>
@@ -116,12 +112,12 @@
                                 <div class="rounded overflow-hidden shadow-md bg-white">
                                     <div class="absolute -mt-20 w-full flex justify-center">
                                         <div class="h-32 w-32">
-                                            <img src="https://cdn.tuk.dev/assets/blond-man-happy-expression_1194-2873.jpg" alt="Display Picture of Rachel Adams" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                            <img src="https://cdn.tuk.dev/assets/blond-man-happy-expression_1194-2873.jpg" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
                                         </div>
                                     </div>
                                     <div class="px-6 mt-16">
-                                        <h1 class="font-bold text-3xl text-center mb-1">Rachel Adams</h1>
-                                        <p class="text-gray-800 text-sm text-center">Product Design Head</p>
+                                        <h1 class="font-bold text-3xl text-center mb-1">Brunno Almeida</h1>
+                                        <p class="text-gray-800 text-sm text-center">Engenheiro Cívil formado na UFRGS</p>
                                         <p class="text-center text-gray-600 text-base pt-3 font-normal">INFO5</p>
                                         <div class="w-full flex justify-center pt-4 pb-4">
                                         </div>
@@ -132,12 +128,12 @@
                                 <div class="rounded overflow-hidden shadow-md bg-white">
                                     <div class="absolute -mt-20 w-full flex justify-center">
                                         <div class="h-32 w-32">
-                                            <img src="https://cdn.tuk.dev/assets/photo-1570211776045-af3a51026f4a.jfif" alt="Display Picture of Charles Keith" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                            <img src="https://cdn.tuk.dev/assets/photo-1570211776045-af3a51026f4a.jfif" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
                                         </div>
                                     </div>
                                     <div class="px-6 mt-16">
-                                        <h1 class="font-bold text-3xl text-center mb-1">Charles Keith</h1>
-                                        <p class="text-gray-800 text-sm text-center">UX Designer</p>
+                                        <h1 class="font-bold text-3xl text-center mb-1">Carlos da Silva</h1>
+                                        <p class="text-gray-800 text-sm text-center">Advogado formado na USP</p>
                                         <p class="text-center text-gray-600 text-base pt-3 font-normal">INFO6</p>
                                         <div class="w-full flex justify-center pt-4 pb-4">
                                         </div>
