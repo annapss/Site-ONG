@@ -1,4 +1,4 @@
-<table class="table table-dark table-striped center" >
+<table class="table table-dark table-striped center">
     <?php
 
     $linha = 1;
@@ -19,23 +19,21 @@
         echo "</tr>";
     
         while ($dados != FALSE){
+
             echo "<tr>";
             foreach($dados as $valor){
+
                 if ($linha > 1){
                     echo "<td>$valor</td>"; 
                 }
-                
             }
+
             echo "</tr>";
             $dados = fgetcsv($arquivo, 1000, ";");
             $linha++;
         }
         fclose($arquivo);
-
-
     }
-
-  
 
     ?> 
 </table>

@@ -11,16 +11,21 @@
     if (isset($_POST["outros"])){
 
         $outros = $_POST["outros"];
+
     }
 
     $i = 0;
+
     if(isset($_POST["parti"])){ 
+
         foreach($_POST["parti"] as $key => $value){
+
             if($i==0){ //se tiver mais de uma opcao selecionada, saber qual é a primeira
                 $participacao .= "$value";
             }else{
                 $participacao .= " e $value";
             }
+
             $i++;
         }
     }else{
@@ -28,10 +33,12 @@
     }
    
     $a = 0;
-
     $x = 0;
+
     if(isset($_POST["diho"])){
+
         foreach($_POST["diho"] as $key => $value){
+
             if($x ==0){  //se tiver mais de uma opcao selecionada, saber qual é a primeira
                 $diho .= "$value";
             }else{
@@ -41,10 +48,10 @@
             $x++;
         }
     }else{
+
         $presencial = $_POST["presencial"];
         $a++;
         echo "Nenhuma opcao selecionada"; //para saber quando nenhuma checkbox foi selecionada
-        
     }
    
     if($a == 1){ //se a pessoa não preencher a checkbox "diaho" e preencher a textarea "presencial" 
@@ -54,7 +61,6 @@
     else{ // preencheu a checkbox "diaho", então não precisou preencher a textarea "presnecial"
         file_put_contents("insc.csv", "$nome; $telefone; $participacao; $diho; $grau; ;$materias; $outros\n", FILE_APPEND );
     }
-    
 
     // Apenas para verificar o se o POST está pegando todos os inputs corretamente
     dd($_POST);
