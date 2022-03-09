@@ -74,10 +74,21 @@
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Seja bem-vindo a área do voluntário</h1>
+        <h1 class="h1">Seja bem-vindo a área do voluntário</h1>
       </div>
       
-
+      <div class="px-2 mt-14">
+        <h5 class="font-bold text-2xl text-left mb-1">Vejamos algumas Orientações de como funciona o portal dos Voluntários:</h5>
+        <p class="text-gray-1000 text-sm text-left"><ul>
+            <li><b>Como Funciona:</b></li>
+            <li><b>Consultar Material:</b> </li>
+            <li><b>Adicionar Material:</b></li>
+        <!--<li><b>Adicionar depoimento:</b></li>-->
+            <li><b>Normas de <i><a href="###.php">conduta voluntário:</b></i>
+            </ul></p>
+        <div class="w-full flex justify-center pt-4 pb-4">
+        </div>
+      </div>
       
     </main>
   </div>
