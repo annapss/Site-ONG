@@ -74,7 +74,18 @@
         <h1 class="h2">Seja bem-vindo a área do coordenador</h1>
       </div>
 
-
+      <div class="px-2 mt-14">
+        <h5 class="font-bold text-2xl text-left mb-1">Vejamos algumas Orientações de como funciona o portal dos Coordenadores:</h5>
+        <p class="text-gray-1000 text-sm text-left"><ul>
+            <li><b>Como Funciona:</b></li>
+            <li><b>CRUD:</b> </li>
+            <li><b>Novas Inscrições:</b></li>
+        <!--<li><b>Adicionar depoimento:</b></li>-->
+            <li><b>Normas de <i><a href="###.php">conduta coordenador:</b></i>
+            </ul></p>
+        <div class="w-full flex justify-center pt-4 pb-4">
+        </div>
+      </div>
       
     </main>
   </div>
