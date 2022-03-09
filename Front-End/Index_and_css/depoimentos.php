@@ -37,7 +37,7 @@
             <dh-component>
                 <div class="container marketing mx-auto pt-16">
                     <div>
-                        <h1 class="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold pb-6 sm:w-5/6 w-5/6 mx-auto">Alguns Depoimentos de Estudantes ajudados pela Grandes A(l)titudes</h1>
+                        <h1 class="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold pb-6 sm:w-5/6 w-5/6 mx-auto"> Depoimentos de Estudantes e Voluntários.</h1>
                         <h2 class="xl:text-3xl text-2xl text-center text-gray-500 font-extrabold pb-6 sm:w-2/4 w-2.5/3 mx-auto">Conheça alguns deles!</h2>
                     </div>
                 </div>
@@ -53,8 +53,8 @@
                                     </div>
                                     <div class="px-6 mt-16">
                                         <h1 class="font-bold text-3xl text-center mb-1">André Berlim</h1>
-                                        <p class="text-gray-800 text-sm text-center">Formado em Psicologia na UFF</p>
-                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">INFO1</p>
+                                        <p class="text-gray-800 text-sm text-center">Cursando Psicologia na UFF</p>
+                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">Eu sempre fui muito de estudar on-line, e as matéria que eles disponibilizaram nos últimos 2 anos foi o que mais me ajudou. Apareceu muita coisa no meu último ENEM, eu via e pensava “Isso apareceu naquele vídeo...”. Passei na UFF em 2021, minha universidade dos sonhos! Tudo graças a ONG.</p>
                                         <div class="w-full flex justify-center pt-4 pb-4">
                                         </div>
                                     </div>
@@ -70,7 +70,7 @@
                                     <div class="px-6 mt-16">
                                         <h1 class="font-bold text-3xl text-center mb-1">Caroline Rebeca</h1>
                                         <p class="text-gray-800 text-sm text-center">Formada na UFRJ em Ciência da Computação </p>
-                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">INFO2</p>
+                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">Antes da pandemia (por volta de 2019) eu compareci a aulas em diversas matérias que a Grandes A(l)titudes providenciou. Sou amiga de alguns dos voluntários até hoje. Eu nunca entendi muito bem matérias de humanas, mas os materiais disponibilizados me ajudaram muito. Muito obrigada!</p>
                                         <div class="w-full flex justify-center pt-4 pb-4">
                                         </div>
                                     </div>
@@ -85,8 +85,8 @@
                                     </div>
                                     <div class="px-6 mt-16">
                                         <h1 class="font-bold text-3xl text-center mb-1">Jonnatan dos Santos</h1>
-                                        <p class="text-gray-800 text-sm text-center">Manager Development</p>
-                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">INFO3</p>
+                                        <p class="text-gray-800 text-sm text-center">Cursando Medicina na Unesp</p>
+                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">Meu primo já tinha comparecido em algumas aulas, quando eu fui na ONG. Fiquei 2 anos indo em diversas aulas entre 2018-2019 e apenas tenho elogios. Minha universidade era de alta nota de corte, então não acho que conseguiria sem ela!!! Tudo que eu sei, tem um pouco da ONG lá.</p>
                                         <div class="w-full flex justify-center pt-4 pb-4">
                                         </div>
                                     </div>
@@ -101,8 +101,8 @@
                                     </div>
                                     <div class="px-6 mt-16">
                                         <h1 class="font-bold text-3xl text-center mb-1">Anderson Martins</h1>
-                                        <p class="text-gray-800 text-sm text-center">Análista e Desenvolvedor de Sistemas formado na UNICAMP</p>
-                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">INFO4</p>
+                                        <p class="text-gray-800 text-sm text-center">Cursando Biomedicina na UFG</p>
+                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">Esse projeto foi essencial na minha nota, principalmente em redação. Muito grato! Nos anos em que acompanhei, a partir de 2018, comecei a apreciar o trabalho de organizações voluntárias como essa. Depois de me formar planejo trabalhar com esses projetos para ajudar pessoas como eu e também voluntariar.</p>
                                         <div class="w-full flex justify-center pt-4 pb-4">
                                         </div>
                                     </div>
@@ -117,8 +117,8 @@
                                     </div>
                                     <div class="px-6 mt-16">
                                         <h1 class="font-bold text-3xl text-center mb-1">Brunno Almeida</h1>
-                                        <p class="text-gray-800 text-sm text-center">Engenheiro Cívil formado na UFRGS</p>
-                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">INFO5</p>
+                                        <p class="text-gray-800 text-sm text-center">Cursando Engenharia Cívil na UFRGS</p>
+                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">Me recomendaram os resumos de uma amiga que trabalhava na ONG, e comecei a acompanhar o projeto nas redes sociais, em 2019. Virou uma parte da minha rotina de estudos, até passar em engenharia cívil em 2020. O material de graça, ajudou muito na minha situação. Gratidão total a ONG!</p>
                                         <div class="w-full flex justify-center pt-4 pb-4">
                                         </div>
                                     </div>
@@ -133,8 +133,8 @@
                                     </div>
                                     <div class="px-6 mt-16">
                                         <h1 class="font-bold text-3xl text-center mb-1">Carlos da Silva</h1>
-                                        <p class="text-gray-800 text-sm text-center">Advogado formado na USP</p>
-                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">INFO6</p>
+                                        <p class="text-gray-800 text-sm text-center">Cursando Direito na USP</p>
+                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">Esse projeto foi essencial na minha nota, principalmente em redação. Muito grato! Nos anos em que acompanhei, a partir de 2018, comecei a apreciar o trabalho de organizações voluntárias como essa. Depois de me formar planejo trabalhar com esses projetos para ajudar pessoas como eu e também voluntariar.</p>
                                         <div class="w-full flex justify-center pt-4 pb-4">
                                         </div>
                                     </div>
