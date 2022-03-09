@@ -144,8 +144,29 @@
                     </div>
                 </div>
             </dh-component>
-            <!-- Code block ends -->
+            <!-- Code block ends -->    
+            <div class="flex flex-col justify-center container mx-auto py-10 px-10">
+                <div class="flex justify-between">
+                    <button class="text-gray-600 text-base hover:text-blue-700 leading-4 bg-white shadow-md drop-shadow rounded py-5 px-6 font-medium flex items-center">
+                        <svg width="8" height="12" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 1L1 7L7 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="ml-4">Anterior</span>
+                    </button>
+
+                    <button class="text-gray-600 text-base leading-4 hover:text-blue-700 bg-white shadow-md drop-shadow rounded py-5 px-6 font-medium flex items-center">
+                        <span class="mr-4">Próximo</span>
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 13L7 7L1 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+    
+
         </div>
+
+        
     <footer class="container">
       <p class="float-end"><a href="#">Voltar ao topo</a></p>
       <p>&copy; 2018–2021 Grande A(l)titudes, Ong. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>

@@ -107,26 +107,28 @@
     <div class="row">
       <div class="col-lg-4">
         <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
-        <img src="../../Imagens_and_Icons/clei.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
-        <h2>Fernado Gonçalves</h2>
-        <p>...</p>
-        <p>...</p>
+        <img src="../../Imagens_and_Icons/depfoto1.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
+        <h2>Mariana Ballerin</h2>
+        <p>Cursando Análise e Desenvolvimento de Sistemas na UNICAMP</p>
+        <p>Conheci a Ong em 2018, atráves do instagram. Na época estava prestes a prestar o vestibular, e os materiais disponibilizados me ajudaram demais em meu cronograma de estudos, os mesmos são MARAVILHOSOS! Serei eternamente grata. :D</p>
       </div><!-- /.col-lg-4 -->
       
       <div class="col-lg-4">
         <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
         <img src="../../Imagens_and_Icons/depoiment_real.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
         <h2>Helena Florença</h2>
-        <p>O mérito do meu ingresso na UFF,dedico totalmente a essa ONG maravilhosa. Hoje sou formada em Engenharia da computação, mas conheci a ONG quando tinha apenas 18 anos. Os resumos são incíveis, altamente detalhados e completos! Muito obrigado a todos que colaboram até hoje para esse projeto surreal!</p>
+        <p>Cursando Engenharia da computação na UFF</p>
+        <p>O mérito do meu ingresso na UFF,dedico totalmente a essa ONG maravilhosa. Hoje estou fazendo Engenharia da computação, mas conheci a ONG quando tinha apenas 18 anos. Os resumos são incíveis, altamente detalhados e completos! Muito obrigada! </p>
         <p>Vocês são Incíveis. :)</p>
         <p><a class="btn btn-warning" href="depoimentos.php">Veja mais depoimentos</a></p>
       </div><!-- /.col-lg-4 -->
       
       <div class="col-lg-4">
         <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
-        <img src="../../Imagens_and_Icons/mulher.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">
-        <h2>Giulia Vitória</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
+        <img src="../../Imagens_and_Icons/depft3.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
+        <h2>Julio Azevedo</h2>
+        <p>Cursando Direito na UFRJ</p>
+        <p>Conheci o instagram da Ong atráves de amigos meus, em 2019, desde então minha vida mudou completamente! realizei o meu sonho de fazer direito em uma iniversidade renomada no país. Só tenho gratidão e felicidade ao lembrar da Grandes A(l)titudes!</p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
