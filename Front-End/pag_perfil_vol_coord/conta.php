@@ -57,7 +57,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../Back-End/consulta_material_volu/consult_material_volu.php">
+            <a class="nav-link" href="../../Back-End/consulta_material_volu/consult_material_index.php">
               <span data-feather="search"></span>
               Consulta de materiais
             </a>

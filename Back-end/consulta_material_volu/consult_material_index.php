@@ -12,7 +12,7 @@
             <h1>Consultar Materia</h1>
         </div>
         <div class="body">  
-            <form method="post" action="assets/consulta_material.php">
+            <form method="post" action="consult_material_return.php">
                 
                 <p>
                     <label for="materia">Matéria:</label>
