@@ -183,8 +183,11 @@
             <input type="tel" id="user-number" name="user_number" class="form-control" placeholder="Telefone" required="" autofocus="">
             <input type="password" id="user-pass" name="user_pass" class="form-control" placeholder="Senha" required="" autofocus="">
             <input type="password" id="user-repeatpass" name="user_repeatpass" class="form-control" placeholder="Repetir Senha" required="" autofocus="">
-            <input type="text" id="user-funcao" name="user_funcao" class="form-control" placeholder="Voluntário ou Coordenador" required="" autofocus="">
-            
+            <select class="form-control" aria-label=".form-select-sm example" name="user_funcao" id="user-funcao" required="" autofocus="">
+                <option>Selecione sua função</option>
+                <option  value="voluntario" >Voluntário</option>
+                <option  value="coordenador" >Coordenador</option>
+            </select>
             <button class="btn btn-primary btn-block" type="submit"><i class="fas fa-user-plus"></i>Cadastrar</button>
             <a href="#" id="cancel_signup"><i class="fas fa-angle-left"></i> Voltar</a>
         
