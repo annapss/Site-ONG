@@ -39,7 +39,7 @@
         if($funcao == "coordenador"){
             header('Location: ../../pag_perfil_vol_coord/contaCoor.php');
             exit();
-        }elseif($funcao = "voluntário"){
+        }elseif($funcao == "voluntário"){
             header('Location: ../../pag_perfil_vol_coord/conta.php');
         exit();
         }
