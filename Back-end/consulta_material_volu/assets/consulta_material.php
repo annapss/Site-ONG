@@ -51,7 +51,7 @@
      if ($materia == "Selecione uma Matéria" && empty($conteudo)){  // Não foi informado a matéria e nem o conteúdo
         echo '<script type="text/javascript">
                 alert("Deve ser preenchido pelo menos um campo.")
-                window.location = "http://localhost/Site-ONG/Back-End/consulta_material_volu/consult_material_volu.php"
+                window.location = "../consult_material_volu.php"
               </script>';
               //Redirecionamento para a página de consultar os materiais, junto a uma mensagem de que deve ter pelo menos um campo preenchido.
      }else{
@@ -71,6 +71,8 @@
                     echo "<th>Formato</th>";
                     echo "<th>Feita por</th>";
                     echo "</tr>";
+                    echo '<h2><a href="../../../Front-End/pag_perfil_vol_coord/conta.php">Voltar</a></h1>';//Botão de voltar a tela de Conta de login
+
 
                     foreach(mate($materia) as $linha){
 
@@ -85,7 +87,7 @@
                     //echo "<h1 style='font-size: 40px;'>Não há meterial feito sobre $materia</h1>";
                     echo '<script type="text/javascript">
                             alert("Não há material feito sobre está matéria.")
-                            window.location = "http://localhost/Site-ONG/Back-End/consulta_material_volu/consult_material_volu.php"
+                            window.location = "../consult_material_volu.php"
                           </script>';
                 }
         }
@@ -105,13 +107,14 @@
                 echo "<th>Formato</th>";
                 echo "<th>Feita por</th>";
                 echo "</tr>";
+                echo '<h2><a href="../../../Front-End/pag_perfil_vol_coord/conta.php">Voltar</a></h1>';//Botão de voltar a tela de Conta de login
 
                 foreach(cont($conteudo) as $linha){
 
                     echo "<tr>";
                     echo "<td>{$linha['Conteudo']}</td>";
                     echo "<td>{$linha['Formato']}</td>";
-                    echo "<td>{$linha['Feita_por']}</td>"; 
+                    echo "<td>{$linha['Feita_por']}</td>";
                 
                 }
                 echo "</tr>";
@@ -119,7 +122,7 @@
                 //echo "<h1 style='font-size: 40px;'>Não há meterial feito sobre $conteudo</h1>";
                 echo '<script type="text/javascript">
                             alert("Não há meterial feito sobre este Conteúdo.")
-                            window.location = "http://localhost/Site-ONG/Back-End/consulta_material_volu/consult_material_volu.php"
+                            window.location = "../consult_material_volu.php"
                           </script>';
             }
                 
@@ -140,6 +143,7 @@
                 echo "<th>Formato</th>";
                 echo "<th>Feita por</th>";
                 echo "</tr>";
+                echo "<h2><a href='../../../Front-End/pag_perfil_vol_coord/conta.php'>Voltar</a></h2>";//Botão de voltar a tela de Conta de login
 
                 foreach(mateCont($materia, $conteudo) as $linha){
 
@@ -155,7 +159,7 @@
                 //echo "<h1 style='font-size: 40px;'>Não há material feito em $materia sobre $conteudo</h1>";
                 echo '<script type="text/javascript">
                             alert("Não há meterial feito sobre este Conteúdo.")
-                            window.location = "http://localhost/Site-ONG/Back-End/consulta_material_volu/consult_material_volu.php"
+                            window.location = "../consult_material_volu.php"
                           </script>';
             }
             

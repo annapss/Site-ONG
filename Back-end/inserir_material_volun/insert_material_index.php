@@ -16,7 +16,7 @@
                     <label for="materia">Matéria:</label>
                     <div class="text-box">
                         <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="materia" name="materia">
-                            <option>Selecione uma Matéria</option>
+                            <option value="selecione_materia">Selecione uma Matéria</option> <!-- Redirecionar para a mesma pag caso o material esteja vázio -->
                             <option>Artes</option>
                             <option>Biologia</option>
                             <option>Espanhol</option>
@@ -46,7 +46,7 @@
                     <label for="formato">Formato:</label>
                     <div class="text-box">
                         <select name="formato"  id="formato" class="form-select form-select-sm">
-                            <option>Selecione uma opção</option>
+                            <option value="selecione_opcao">Selecione uma opção</option> <!-- Se o voluntário enviar com essa opção marcada, omesmo será redireciado de volta a página, para adicionar o formato da matéria -->
                             <option value="Vide-aula">Vídeo Aula</option>
                             <option value="Resumo">Resumo</option>
                             <option value="Reels-tiktok">Reels ou TikTok</option>

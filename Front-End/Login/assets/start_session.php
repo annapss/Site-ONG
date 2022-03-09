@@ -1,8 +1,12 @@
 <?php 
+    include ('../../../Back-End/banco/conecta_banco.php');
+    /*if(empty($_POST['inputEmail']) or empty($_POST['inputPassword'])) {  Não ta impedindo que a pessoa acesse a página de login
+        header('Location: ../login.php');
+        exit();
+    }*/
+
     $inputEmail = $_POST["inputEmail"];
     $inputPassword = $_POST["inputPassword"];
-
-    include '../../../Back-End/banco/conecta_banco.php';
 
     $sql = "select * from grandes_altitudes.login";
 
@@ -12,6 +16,7 @@
 
     $confirm = 0;
     $funcao = "";
+
 
     if($query){
         $row = mysqli_fetch_assoc($query);
@@ -27,8 +32,6 @@
     }
     else
         echo mysqli_error($link);
-
-    
     
     if($confirm == 1){
         session_start();
@@ -41,7 +44,8 @@
         exit();
         }
         
-    }
-    else
+    }else{
         echo '<script>alert("Usuário ou senha estão errados.");location.href="../login.php";</script>';
+    }
+
 ?>
