@@ -29,7 +29,10 @@
             $i++;
         }
     }else{
-        echo "Nenhuma opcao selecionada"; //para saber quando nenhuma checkbox foi selecionada
+        echo '<script type="text/javascript">
+                    alert("Nenhuma opção selecionada.")
+                    window.location = "../FormsOficial_voluntarios.php"
+              </script>'; //para saber quando nenhuma checkbox foi selecionada
     }
    
     $a = 0;
@@ -51,7 +54,10 @@
 
         $presencial = $_POST["presencial"];
         $a++;
-        echo "Nenhuma opcao selecionada"; //para saber quando nenhuma checkbox foi selecionada
+        echo '<script type="text/javascript">
+                    alert("Nenhuma opção selecionada.")
+                    window.location = "../FormsOficial_voluntarios.php"
+               </script>'; //para saber quando nenhuma checkbox foi selecionada
     }
    
     if($a == 1){ //se a pessoa não preencher a checkbox "diaho" e preencher a textarea "presencial" 
@@ -67,10 +73,14 @@
 
     function dd($param) //funcao pra ver o que post tá pegando
     {
-        echo '<pre>';
-        print_r($param);
-        echo '</pre>';
-        die();
+        //echo '<pre>';
+        //print_r($param);
+        //echo '</pre>';
+        //die();
+        echo '<script type="text/javascript">
+                    alert("Inscrição Enviada com Sucesso!")
+                    window.location = "../../../Front-End/Index_and_css/index.php"
+        </script>';
     };
  
 ?>
