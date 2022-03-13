@@ -45,6 +45,10 @@
                 <p>
                     <input type="submit" value="Editar" class="btn btn-primary mb-3">
                 </p>
+
+                <p>
+                    <a class="btn btn-primary" href="crud_index.php" role="button">Voltar</a> 
+                </p>
             </form>    
         </div>
         <div class="body" style="height: 80%;"></div>
