@@ -72,7 +72,7 @@
           <!-- MATEMÁTICA -->
           <img src="../../Imagens_and_Icons/logoMatematica.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Matemática</h2>
-          <p><a class="btn btn-secondary" href="matematica.php" role="button">Visualizar Matérias</a></p>
+          <p><a class="btn btn-secondary" href="content/content.php?materia=matematica" role="button">Visualizar Matérias</a></p> <!-- Passa para o script content com o nome da matéria -->
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
@@ -80,7 +80,7 @@
           <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
           <img src="../../Imagens_and_Icons/logoQuimica.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Química</h2>
-          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
+          <p><a class="btn btn-secondary" href="content/content.php?materia=quimica" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
@@ -88,7 +88,7 @@
           <!-- FÍSICA -->
           <img src="../../Imagens_and_Icons/logoFisica.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Física</h2>
-          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
+          <p><a class="btn btn-secondary" href="content/content.php?materia=fisica" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
     
@@ -100,7 +100,7 @@
           <!-- HISTÓRIA -->
           <img src="../../Imagens_and_Icons/logoHistoria.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>História</h2>
-          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
+          <p><a class="btn btn-secondary" href="content/content.php?materia=historia" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
@@ -108,14 +108,14 @@
           <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
           <img src="../../Imagens_and_Icons/logoGeografia.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Geografia</h2>
-          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
+          <p><a class="btn btn-secondary" href="content/content.php?materia=geografia" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
           <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
           <img src="../../Imagens_and_Icons/logoLiteratura.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Literatura</h2>
-          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
+          <p><a class="btn btn-secondary" href="content/content.php?materia=literatura" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
     </div>
@@ -125,19 +125,19 @@
         <div class="col-lg-4">
           <img src="../../Imagens_and_Icons/logoIngles.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Inglês</h2>
-          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
+          <p><a class="btn btn-secondary" href="content/content.php?materia=ingles" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
           <img src="../../Imagens_and_Icons/logoBiologia.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Biologia</h2>
-          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
+          <p><a class="btn btn-secondary" href="content/content.php?materia=biologia" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
           <img src="../../Imagens_and_Icons/logoEspanhol.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Espanhol</h2>
-          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
+          <p><a class="btn btn-secondary" href="content/content.php?materia=espanhol" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
 
       </div><!-- /.row -->
@@ -148,19 +148,19 @@
         <div class="col-lg-4">
           <img src="../../Imagens_and_Icons/logoRedacao.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Redação</h2>
-          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
+          <p><a class="btn btn-secondary" href="content/content.php?materia=redacao" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
           <img src="../../Imagens_and_Icons/logoPortugues.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Português</h2>
-          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
+          <p><a class="btn btn-secondary" href="content/content.php?materia=portugues" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
           <img src="../../Imagens_and_Icons/logoFilosofia.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Filosofia</h2>
-          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
+          <p><a class="btn btn-secondary" href="content/content.php?materia=filosofia" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
 
       </div><!-- /.row -->
@@ -171,13 +171,13 @@
         <div class="col-lg-4">
           <img src="../../Imagens_and_Icons/logoSociologia.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
           <h2>Sociologia</h2>
-          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
+          <p><a class="btn btn-secondary" href="content/content.php?materia=sociologia" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
         <img src="../../Imagens_and_Icons/logoArtes.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
         <h2>Artes</h2>
-          <p><a class="btn btn-secondary" href="#" role="button">Visualizar Matérias</a></p>
+          <p><a class="btn btn-secondary" href="content/content.php?materia=artes" role="button">Visualizar Matérias</a></p>
         </div><!-- /.col-lg-4 -->
         
       </div><!-- /.row -->
