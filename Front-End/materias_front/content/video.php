@@ -13,7 +13,7 @@
     
 
     <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -33,11 +33,11 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="../Index_and_css/carousel.css" rel="stylesheet">
+    <link href="../../Index_and_css/carousel.css" rel="stylesheet">
   </head>
   <body>
     
-  <?php include '../assets/xmenu.php';?>
+  <?php include '../../assets/xmenu.php';?>
 
 <main>
   <!-- Marketing messaging and featurettes

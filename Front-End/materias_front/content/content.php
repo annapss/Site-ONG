@@ -83,7 +83,7 @@
                 <div class='card-body'>
                   <h5 class='card-title'>$row[0]</h5>
                     <p class='card-text'>$row[1]</p>
-                  <a href='../video.php?link={$row[2]}&title={$row[0]}' class='btn btn-primary' role='button'>Assistir aula!</a>
+                  <a href='video.php?link={$row[2]}&title={$row[0]}' class='btn btn-primary' role='button'>Assistir aula!</a>
                 </div>
               </div>
             </div><!-- /.col-lg-4 -->
@@ -119,7 +119,7 @@
                   <div class='card-body'>
                     <h5 class='card-title'>$row[0]</h5>
                       <p class='card-text'>$row[1]</p>
-                    <a href='../video.php?link={$row[2]}&title={$row[0]}' class='btn btn-primary' role='button'>Assistir aula!</a>
+                    <a href='video.php?link={$row[2]}&title={$row[0]}' class='btn btn-primary' role='button'>Assistir aula!</a>
                   </div>
                 </div>
               </div><!-- /.col-lg-4 -->
